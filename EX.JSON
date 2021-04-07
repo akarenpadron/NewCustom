@@ -1,0 +1,53 @@
+{
+    "braden": {
+        "jerseys_leftchest_logo": "Yes",
+        "jerseys_backabovenumber_logo": "No"
+    },
+    "stafford": {
+        "jerseys_leftchest_logo": "Yes",
+        "jerseys_center_logo": "Yes",
+        "jerseys_backabovenumber_logo": "No",
+        "jerseys_back_number": "8",
+        "number_style": "EURO",
+        "number_color": "WHT"
+    },
+    "cisa": {
+        "jerseys_leftchest_logo": "Yes",
+        "jerseys_backabovenumber_logo": "No",
+        "jerseys_back_number": "8",
+        "number_style": "OUTLINED",
+        "number_color": "WHTBLK"
+    },
+    "floridasc": {
+        "jerseys_leftchest_logo": "Yes",
+        "jerseys_rightchest_logo": "Yes",
+        "jerseys_center_logo": "Yes",
+        "jerseys_backabovenumber_logo": "No",
+        "jerseys_rightsleeve_logo": "Yes",
+        "jerseys_back_number": "8",
+        "number_style": "EURO",
+        "number_color": "BLK"
+    },
+    "pennalliance": {
+        "jerseys_leftchest_logo": "Yes",
+        "jerseys_leftchest2_logo": "No",
+        "jerseys_rightchest_logo": "No",
+        "jerseys_center_logo": "No",
+        "jerseys_backabovenumber_logo": "No",
+        "jerseys_leftsleeve_logo": "No",
+        "jerseys_rightsleeve_logo": "No",
+        "jerseys_leftchest_number": "",
+        "jerseys_rightchest_number": "",
+        "jerseys_centerchest_number": "",
+        "jerseys_back_number": "10",
+        "number_style": "EDGE",
+        "number_color": "BLK"
+    },
+    "dakotaodp": {
+        "jerseys_center_logo": "Yes",
+        "jerseys_backabovenumber_logo": "No",
+        "jerseys_back_number": "",
+        "number_style": "",
+        "number_color": ""
+    }
+}
