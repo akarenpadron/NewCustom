@@ -74,6 +74,7 @@ css
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/main.css">
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/color-swatches.css">
 <link rel="stylesheet" href="flipster.min.css">
 <script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
 
@@ -640,7 +641,7 @@ input[type="submit"]{
   <div class="container">
               <div class="row">
                   <div class="col-lg-6 col-md-6 single-footer-widget text-center">
-                    <h2>Price starting at</h2>
+                    <h2><br>Price starting at</h2>
                     <h1>$60.00</h1>
                       <p><a href="#con3" data-toggle="modal" class="genric-btn primary radius"  role="button">Kit Packages</a></p>
                   </div>
@@ -648,7 +649,7 @@ input[type="submit"]{
                   <div class="col-lg-6 col-md-6 single-footer-widget" style="text-align: center;">
                     <img src="img/FABRICS-ICON.png">
                     <h2 >OUR FABRICS</h2>
-                      <ul class="text-white mt-10">
+                      <ul class="mt-10">
                         <li>Moisture wicking fabric technology.</li>
                         <li>Breathable fabric to accommodate all climates.</li>
                         <li> State-of-the-art sublimation capabilities.</li>

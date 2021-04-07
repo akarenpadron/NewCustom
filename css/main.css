@@ -6,6 +6,13 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+:root {
+    --secondary-color: rgb(22,175,228);
+    --black-color: rgb(0,0,0);
+    --white-color: rgb(255,255,255);
+    --gray-color: rgb(66,70,70);
+    --gray-light-color: rgb(207,211,216);
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #46dbf9;
@@ -111,13 +118,13 @@ a, a:focus {
 
 
   .prefooter {
-    background: #7f7f7f; }
+    background: #fff; }
     @media (max-width: 991px) {
       .prefooter .single-footer-widget {
         margin-bottom: 30px; } }
 
     .prefooter .single-footer-widget h4 {
-      color: #fff;
+      color: #000;
       margin-bottom: 10px; }
       @media (max-width: 1024px) {
         .prefooter .single-footer-widget h4 {
@@ -127,7 +134,7 @@ a, a:focus {
           margin-bottom: 10px; } }
 
       .prefooter .single-footer-widget h3 {
-            color: #fff;
+            color: #000;
             margin-bottom: 20px; }
       @media (max-width: 1024px) {
               .prefooter .single-footer-widget h3 {
@@ -136,8 +143,23 @@ a, a:focus {
               .prefooter .single-footer-widget h3 {
                 margin-bottom: 10px; } }
 
+      .prefooter .single-footer-widget h2 {
+            color: #000;
+            margin-bottom: 20px; 
+      }
+      @media (max-width: 1024px) {
+        .prefooter .single-footer-widget h2 {
+
+        } 
+      }
+      @media (max-width: 991px) {
+        .prefooter .single-footer-widget h2 {
+          margin-bottom: 10px; 
+        } 
+      }
+
       .prefooter .single-footer-widget h1 {
-                      color: #fff;
+                      color: #000;
                       margin-bottom: 20px;
                       font-size: 60px; }
       @media (max-width: 1024px) {
@@ -146,6 +168,10 @@ a, a:focus {
       @media (max-width: 991px) {
               .prefooter .single-footer-widget h1 {
                 margin-bottom: 10px; } }
+
+      .prefooter .single-footer-widget li {
+            color: #000;
+      }
 
      .prefooter .single-footer-widget i {
        padding-right: 10px; }
@@ -1834,7 +1860,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997; }
 
 .header-scrolled {
-  background: rgba(160, 230, 8, 0.9);
+  background: var(--gray-light-color);
   transition: all 0.5s; } /* menu bar color*/
 
 @media (max-width: 673px) {
@@ -1881,7 +1907,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 100%;
   left: 0;
   z-index: 99;
-  background: rgba(255, 255, 255, 0.9); }
+  background: rgba(255, 255, 255, 1); }
 
 .nav-menu li {
   position: relative;
@@ -1994,7 +2020,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--gray-light-color);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -2033,7 +2059,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff; }
+  color: #000; }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
   color: #46dbf9; }
