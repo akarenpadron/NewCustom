@@ -334,8 +334,16 @@ input[type="submit"]{
  </header>
 	<!-- end header Area -->
 
-
-  <!-- PARALLAX TOP BANNER -->
+<div style="height:115px;background-color:var(--gray-light-color)">
+</div>
+<div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER-PAGE1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+  <div class="col-lg-6 col-md-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
+    <div width="100%" height="auto" style="margin-top:60%;margin-bottom: 60%;">
+        &nbsp
+    </div>
+  </div>
+</div>
+  <!-- PARALLAX TOP BANNER 
 <section class="custom-header section-gap">
 <div class="container">
 
@@ -345,10 +353,10 @@ input[type="submit"]{
       </div>
 
 </div>
-</section>
+</section>-->
   <!-- END TOP BANNER -->
 <div class="container">
-  <div class="row swatch">
+  <div class="row swatch" style="padding-top: 10%;">
 
     <div class="col-lg-6">
       <div align="center" style="margin:auto; height:850px; width:290px">
