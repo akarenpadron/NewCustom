@@ -356,7 +356,7 @@ input[type="submit"]{
 <div style="height:115px;background-color:var(--gray-light-color)">
 </div>
 <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER-PAGE3.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-  <div class="col-lg-6 col-md-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
+  <div class="col-lg-6 col-md-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
     <div width="100%" height="auto" style="margin-top:60%;margin-bottom: 60%;">
         &nbsp
     </div>
@@ -388,7 +388,7 @@ input[type="submit"]{
 
 <div class="row swatch" style="padding-top: 10%;">
 
-  <div class="col-sm-6" class="ballImages">
+  <div class="col-sm-12 col-md-6" class="ballImages">
     <div align="center" style="margin:auto; height:437px; width:290px;">
 
       <div id="d1-ball"><img class="ballImages" src="assets/Balls/DESIGN1/ball-color.png"/></div>
@@ -430,7 +430,7 @@ input[type="submit"]{
   </div>
                     <!-- Uniform Created End -->
 
-  <div class="col-sm-6 colors">
+  <div class="col-sm-12 col-md-6 colors" style="padding-left: max(100px, 5%);">
     <h3>Design your ball:</h3>
 
     <h5>Primary color</h5>

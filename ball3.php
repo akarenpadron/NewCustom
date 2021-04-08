@@ -272,6 +272,7 @@ input[type="submit"]{
   color:#000;
 }
 
+
 </style>
 </head>
 <body>
@@ -312,94 +313,112 @@ input[type="submit"]{
 
 
 <div class="row swatch">
-
   <div class="col-sm-6">
-    <div align="center" style="margin:auto; height:350px; width:290px">
+    <div class="ballImageSection" align="center" style="margin:auto; height:350px; width:290px">
 
-                            <div id="d1-ball"><img src="assets/Balls/DESIGN3/ball-color.png" width="290" height="290" /></div>
-                            <div id="d1-blk1"><img src="assets/Balls/DESIGN3/design3-blk1.png" width="290" height="290" /></div>
-                            <div id="d1-chr1"><img src="assets/Balls/DESIGN3/design3-chr1.png" width="290" height="290" /></div>
-                            <div id="d1-col1"><img src="assets/Balls/DESIGN3/design3-col1.png" width="290" height="290" /></div>
-                            <div id="d1-gld1"><img src="assets/Balls/DESIGN3/design3-gld1.png" width="290" height="290" /></div>
-                            <div id="d1-hun1"><img src="assets/Balls/DESIGN3/design3-hun1.png" width="290" height="290" /></div>
-                            <div id="d1-kel1"><img src="assets/Balls/DESIGN3/design3-kel1.png" width="290" height="290" /></div>
-                            <div id="d1-lem1"><img src="assets/Balls/DESIGN3/design3-lem1.png" width="290" height="290" /></div>
-                            <div id="d1-lim1"><img src="assets/Balls/DESIGN3/design3-lim1.png" width="290" height="290" /></div>
-                            <div id="d1-nav1"><img src="assets/Balls/DESIGN3/design3-nav1.png" width="290" height="290" /></div>
-                            <div id="d1-org1"><img src="assets/Balls/DESIGN3/design3-org1.png" width="290" height="290" /></div>
-                            <div id="d1-pur1"><img src="assets/Balls/DESIGN3/design3-pur1.png" width="290" height="290" /></div>
-                            <div id="d1-red1"><img src="assets/Balls/DESIGN3/design3-red1.png" width="290" height="290" /></div>
-                            <div id="d1-roy1"><img src="assets/Balls/DESIGN3/design3-roy1.png" width="290" height="290" /></div>
-                            <div id="d1-sil1"><img src="assets/Balls/DESIGN3/design3-sil1.png" width="290" height="290" /></div>
-                            <div id="d1-tur1"><img src="assets/Balls/DESIGN3/design3-tur1.png" width="290" height="290" /></div>
-                            <div id="d1-wht1"><img src="assets/Balls/DESIGN3/design3-wht1.png" width="290" height="290" /></div>
+      <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script>
+        $( document ).ready(function() {
+          const array1 = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
+          array1.forEach(element => 
+            document.getElementById(element+"ballimg1").src="assets/Balls/DESIGN3/design3-"+element+"1.png"
+          );
+          array1.forEach(element => 
+            document.getElementById(element+"ballimg2").src="assets/Balls/DESIGN3/design3-"+element+"2.png"
+          );
+        });
+      </script>
 
-                            <div id="d1-blk2"><img src="assets/Balls/DESIGN3/design3-blk2.png" width="290" height="290" /></div>
-                            <div id="d1-chr2"><img src="assets/Balls/DESIGN3/design3-chr2.png" width="290" height="290" /></div>
-                            <div id="d1-col2"><img src="assets/Balls/DESIGN3/design3-col2.png" width="290" height="290" /></div>
-                            <div id="d1-gld2"><img src="assets/Balls/DESIGN3/design3-gld2.png" width="290" height="290" /></div>
-                            <div id="d1-hun2"><img src="assets/Balls/DESIGN3/design3-hun2.png" width="290" height="290" /></div>
-                            <div id="d1-kel2"><img src="assets/Balls/DESIGN3/design3-kel2.png" width="290" height="290" /></div>
-                            <div id="d1-lem2"><img src="assets/Balls/DESIGN3/design3-lem2.png" width="290" height="290" /></div>
-                            <div id="d1-lim2"><img src="assets/Balls/DESIGN3/design3-lim2.png" width="290" height="290" /></div>
-                            <div id="d1-nav2"><img src="assets/Balls/DESIGN3/design3-nav2.png" width="290" height="290" /></div>
-                            <div id="d1-org2"><img src="assets/Balls/DESIGN3/design3-org2.png" width="290" height="290" /></div>
-                            <div id="d1-pur2"><img src="assets/Balls/DESIGN3/design3-pur2.png"* width="290" height="290" /></div>
-                            <div id="d1-red2"><img src="assets/Balls/DESIGN3/design3-red2.png" width="290" height="290" /></div>
-                            <div id="d1-roy2"><img src="assets/Balls/DESIGN3/design3-roy2.png" width="290" height="290" /></div>
-                            <div id="d1-sil2"><img src="assets/Balls/DESIGN3/design3-sil2.png" width="290" height="290" /></div>
-                            <div id="d1-tur2"><img src="assets/Balls/DESIGN3/design3-tur2.png" width="290" height="290" /></div>
-                            <div id="d1-wht2"><img src="assets/Balls/DESIGN3/design3-wht2.png" width="290" height="290" /></div>
+      <style>
+        .ballImageSection img{
+          width:377px;
+          height:377px;
+        }
+      </style>
+  
 
-                                </div>
+      <div id="d1-ball"><img src="assets/Balls/DESIGN3/ball-color.png" width="290" height="290" /></div>
+      
+      <div id="d1-blk1"><img id="blkballimg1"/></div>
+      <div id="d1-chr1"><img id="chrballimg1"/></div>
+      <div id="d1-col1"><img id="colballimg1"/></div>
+      <div id="d1-gld1"><img id="gldballimg1"/></div>
+      <div id="d1-hun1"><img id="hunballimg1"/></div>
+      <div id="d1-kel1"><img id="kelballimg1"/></div>
+      <div id="d1-lem1"><img id="lemballimg1"/></div>
+      <div id="d1-lim1"><img id="limballimg1"/></div>
+      <div id="d1-nav1"><img id="navballimg1"/></div>
+      <div id="d1-org1"><img id="orgballimg1"/></div>
+      <div id="d1-pur1"><img id="purballimg1"/></div>
+      <div id="d1-red1"><img id="redballimg1"/></div>
+      <div id="d1-roy1"><img id="royballimg1"/></div>
+      <div id="d1-sil1"><img id="silballimg1"/></div>
+      <div id="d1-tur1"><img id="turballimg1"/></div>
+      <div id="d1-wht1"><img id="whtballimg1"/></div>
 
+      <div id="d1-blk2"><img id="blkballimg2"/></div>
+      <div id="d1-chr2"><img id="chrballimg2"/></div>
+      <div id="d1-col2"><img id="colballimg2"/></div>
+      <div id="d1-gld2"><img id="gldballimg2"/></div>
+      <div id="d1-hun2"><img id="hunballimg2"/></div>
+      <div id="d1-kel2"><img id="kelballimg2"/></div>
+      <div id="d1-lem2"><img id="lemballimg2"/></div>
+      <div id="d1-lim2"><img id="limballimg2"/></div>
+      <div id="d1-nav2"><img id="navballimg2"/></div>
+      <div id="d1-org2"><img id="orgballimg2"/></div>
+      <div id="d1-pur2"><img id="purballimg2"/></div>
+      <div id="d1-red2"><img id="redballimg2"/></div>
+      <div id="d1-roy2"><img id="royballimg2"/></div>
+      <div id="d1-sil2"><img id="silballimg2"/></div>
+      <div id="d1-tur2"><img id="turballimg2"/></div>
+      <div id="d1-wht2"><img id="whtballimg2"/></div>
 
-					</div>
+    </div>
+	</div>
                     <!-- Uniform Created End -->
 
-<div class="col-sm-6 colors">
+  <div class="col-sm-6 colors">
     <h3><b>Design your ball:</b></h3>
 
     <h6>Primary color</h6>
 
-      <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk1','','show','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
-      <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','show','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
-      <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','show','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
-      <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','show','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'HUN'"></div>
-      <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','show','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'KEL'"></div>
-      <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LEM'"></div>
-      <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','show','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LIM'"></div>
-      <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','show','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'NAV'"></div>
-      <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','show','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ORG'"></div>
-      <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','show','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'PUR'"></div>
-      <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','show','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'RED'"></div>
-      <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','show','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ROY'"></div>
-      <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','show','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
-      <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','show','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'TUR'"></div>
-      <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','show');document.getElementById('ballcolor1').value = 'WHT'"></div>
+    <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk1','','show','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
+    <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','show','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
+    <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','show','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
+    <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','show','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'HUN'"></div>
+    <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','show','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'KEL'"></div>
+    <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LEM'"></div>
+    <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','show','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LIM'"></div>
+    <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','show','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'NAV'"></div>
+    <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','show','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ORG'"></div>
+    <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','show','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'PUR'"></div>
+    <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','show','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'RED'"></div>
+    <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','show','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ROY'"></div>
+    <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','show','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
+    <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','show','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'TUR'"></div>
+    <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','show');document.getElementById('ballcolor1').value = 'WHT'"></div>
 
 
-      <h6>Secondary color</h6>
+    <h6>Secondary color</h6>
 
-      <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk2','','show','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'BLK'"></div>
-      <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','show','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'COL'"></div>
-      <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','show','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'GLD'"></div>
-      <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','show','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'HUN'"></div>
-      <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','show','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'KEL'"></div>
-      <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','show','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LEM'"></div>
-      <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','show','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LIM'"></div>
-      <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','show','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'NAV'"></div>
-      <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','show','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ORG'"></div>
-      <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','show','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'PUR'"></div>
-      <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','show','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'RED'"></div>
-      <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','show','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ROY'"></div>
-      <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','show','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'CHR'"></div>
-      <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','show','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'TUR'"></div>
-      <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','show');document.getElementById('ballcolor2').value = 'WHT'"></div>
-
+    <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk2','','show','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'BLK'"></div>
+    <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','show','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'COL'"></div>
+    <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','show','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'GLD'"></div>
+    <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','show','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'HUN'"></div>
+    <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','show','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'KEL'"></div>
+    <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','show','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LEM'"></div>
+    <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','show','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LIM'"></div>
+    <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','show','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'NAV'"></div>
+    <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','show','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ORG'"></div>
+    <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','show','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'PUR'"></div>
+    <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','show','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'RED'"></div>
+    <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','show','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ROY'"></div>
+    <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','show','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'CHR'"></div>
+    <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','show','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'TUR'"></div>
+    <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','show');document.getElementById('ballcolor2').value = 'WHT'"></div>
+  </div>
 </div>
 
-</div>
 <section class="prefooter section-gap align-items-center">
   <div class="container">
               <div class="row">

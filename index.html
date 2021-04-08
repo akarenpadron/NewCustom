@@ -40,8 +40,25 @@ CSS
 	<link rel="stylesheet" href="flipster.min.css">
 	<link rel="stylesheet" href="css/color-swatches.css">
 	<link rel="stylesheet" href="css/custom2.css">
+
+
 	<script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
-	
+
+
+	<script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+    <script type='text/javascript' src='scripts/fg_captcha_validator.js'></script>
+    
+ <script type="text/javascript">
+var iWebkit;if(!iWebkit){iWebkit=window.onload=function(){function fullscreen(){var a=document.getElementsByTagName("a");for(var i=0;i<a.length;i++){if(a[i].className.match("noeffect")){}else{a[i].onclick=function(){window.location=this.getAttribute("href");return false}}}}function hideURLbar(){window.scrollTo(0,0.9)}iWebkit.init=function(){fullscreen();hideURLbar()};iWebkit.init()}}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3)
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+<meta name="apple-mobile-web-app-capable" content="yes" />
 	<style>
 	    html {
 	      box-sizing: border-box;
@@ -56,7 +73,12 @@ CSS
 	    *, *:before, *:after {
 	      box-sizing: inherit;
 	    }
+	    .header-scrolled{
+	    	background-color:var(--gray-color);
+	    }
+
 	</style>
+
 </head>
 
 <!--
@@ -70,6 +92,7 @@ BODY
 
 
 <body>
+	<!--<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>-->
 	<!-- start header Area -->
 	<header id="header">
 		<div class="container main-menu">
@@ -77,7 +100,7 @@ BODY
 				<div id="logo">
 					<a href="index.html"><img src="img/logo-ss.png" alt="" title="" /></a>
 				</div>
-				<nav id="nav-menu-container">
+				<nav id="nav-menu-container" >
 					<ul class="nav-menu">
 						<li class="menu-active"><a href="index.html">Home</a></li>
 						<li><a href="#instructions">INSTRUCTIONS</a></li>
@@ -89,7 +112,9 @@ BODY
 				</nav>
 			</div>
 		</div>
- </header>
+ 	</header>
+<div style="height:115px;background-color:var(--gray-light-color)">
+</div>
 	<!-- end header Area -->
 
 	<!-- start banner Area -->
@@ -120,6 +145,7 @@ BODY
 		</div>
 	</section>
 -->
+
 	<div class="row justify-content-center" style="background-image: url(img/homepage-banner.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
 			<img width="40%" src="img/customUniforms.png" height="auto" class="slide-first align-center slide-in" style="filter:drop-shadow(0 0px 2px rgba(255, 255, 255, 1));margin-right: 20%;margin-top:3%"/>
 	</div>
@@ -262,26 +288,22 @@ BODY
     <div class="gallery-area">
         <div class="container-fluid p-0 fix">
             <div class="row" style="text-align: center;margin-left: 30px;margin-right: 30px">
-                <div class="col-xl-6 col-lg-4 col-md-6 col-sm-6" style="text-align: center; display: block;">
-                    <div class="single-gallery" >
-                        <img src="img/tile1.jpg" height="900px">
-                    </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" style="margin-bottom:20px;margin-top: 20px">
+                    <img src="img/tile1.jpg" height="100%" width="100%">
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery">
-                        <img src="img/tile2.jpg" height="900px">
-                    </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" style="margin-bottom:20px;margin-top: 20px">
+                    <img src="img/tile2.jpg" height="100%" width="100%">
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-12">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="row">
-                        <div class="col-xl-12 col-lg-12  col-md-6 col-sm-6">
-                            <div class="single-gallery mb-30" >
-                                <img src="img/tile3.jpg" height="435px">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div style="margin-bottom:20px;margin-top: 20px">
+                                <img src="img/tile3.jpg" height="100%" width="100%">
                             </div>
                         </div>
-                        <div class="col-xl-12 col-lg-12  col-md-6 col-sm-6">
-                            <div class="single-gallery">
-                                <img src="img/tile4.jpg" height="435px">
+                        <div class="col-xl-12 col-lg-12  col-md-12 col-sm-12 col-12">
+                        	<div style="margin-bottom:20px;margin-top: 20px">
+                            	<img src="img/tile4.jpg" height="100%" width="100%">
                             </div>
                         </div>
                     </div>
@@ -318,98 +340,114 @@ BODY
 				<div class="row" style="text-align: center;">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items  text-center" style="">
-                            <div class="popular-img">
-                                <img src="img/design1.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-			                            DESIGN 1
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform1.php">
+	                            <div class="popular-img">
+	                                <img src="img/design1.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+				                            DESIGN 1
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design2.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-			                            DESIGN 2
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform2.php">
+	                            <div class="popular-img">
+	                                <img src="img/design2.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+				                            DESIGN 2
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design3.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-			                            DESIGN 3
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform3.php">
+	                            <div class="popular-img">
+	                                <img src="img/design3.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+				                            DESIGN 3
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs  single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design4.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-			                            DESIGN 4
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform4.php">
+	                            <div class="popular-img">
+	                                <img src="img/design4.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+				                            DESIGN 4
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs  single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design5.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-                                    	DESIGN 5
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform5.php">
+	                            <div class="popular-img">
+	                                <img src="img/design5.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+	                                    	DESIGN 5
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design6.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-                                    	DESIGN 6
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform6.php">
+	                            <div class="popular-img">
+	                                <img src="img/design6.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+	                                    	DESIGN 6
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img">
-                                <img src="img/design7.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-                                    	DESIGN 7
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform7.php">
+	                            <div class="popular-img">
+	                                <img src="img/design7.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+	                                    	DESIGN 7
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
-                            <div class="popular-img"  >
-                                <img src="img/design8.jpg" width="100%">
-                                <div class="img-cap">
-                                    <spanImagen>
-                                    	DESIGN 8
-                                	</spanImagen>
-                                </div>
-                            </div>
+                        	<a href="uniform8.php">
+	                            <div class="popular-img"  >
+	                                <img src="img/design8.jpg" width="100%">
+	                                <div class="img-cap">
+	                                    <spanImagen>
+	                                    	DESIGN 8
+	                                	</spanImagen>
+	                                </div>
+	                            </div>
+	                        </a>
                         </div>
                     </div>
                 </div>
@@ -419,6 +457,7 @@ BODY
 	<!-- End UNIFORMS--><br /> <br />
 	
 	<!-- BALL -->
+	<section class="tcustomballs-area" id="ball">
 	<div class="row justify-content-center" style="background-image: url(img/homepage-banner2.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
 			<img width="40%" src="img/customBalls2.png" height="auto" class="align-right slide-in slide-first" style="filter:drop-shadow(0 0px 2px rgba(255, 255, 255, 1));margin-left: 30%;margin-top: 3%;"/>
 	</div>
@@ -431,7 +470,7 @@ BODY
 		</div>
 	</div>
 	-->
-	<section class="tcustomballs-area" id="ball">
+	
 		<div class="container fullwidth">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-6">
@@ -448,16 +487,20 @@ BODY
 						<br>
 						<br><br>
 						<br>
-						<a href="shop.html" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
+						<a href="ball1.php" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
 					</div>
 				</div>
 				<div class="col-lg-6 pelota" style="text-align:center;">
-					<img src="img/ball1.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+					<a href="ball1.php">
+						<img src="img/ball1.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+					</a>
 				</div>
 			</div>
 			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6 col-md-6 pelota" style="text-align:center;">
-					<img src="img/ball2.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+				<div class="col-lg-6 pelota" style="text-align:center;">
+					<a href="ball2.php">
+						<img src="img/ball2.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+					</a>
 				</div>
 				<div class="col-lg-6">
 					<div class="section-title" style="width: 80%; margin-left: auto; margin-right: auto;">
@@ -473,7 +516,7 @@ BODY
 						<br>
 						<br><br>
 						<br>
-						<a href="shop.html" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
+						<a href="ball2.php" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
 					</div>
 				</div>
 			</div>
@@ -492,11 +535,13 @@ BODY
 						<br>
 						<br>
 						<br><br>
-						<a href="shop.html" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
+						<a href="ball3.php" class="pelotafondo btn" style="background-color:var(--black-color);">Customize</a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 pelota" style="text-align:center;">
-					<img src="img/ball3.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+				<div class="col-lg-6 pelota" style="text-align:center;">
+					<a href="ball3.php">
+						<img src="img/ball1.jpg" width="100%" style="min-width: 440px;max-width: 50vw;"/>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -700,6 +745,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/mail-script.js"></script>
 	<script src="js/main.js"></script>
 
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+

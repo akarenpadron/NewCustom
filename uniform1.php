@@ -12,9 +12,9 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
+//$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
 
-
+$formproc->AddRecipient('sales@scoresports.com, diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
 $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
@@ -221,11 +221,28 @@ function MM_showHideLayers() { //v9.0
   height:28px;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.circle:hover{
-  border-radius: 30%;
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
+.circle:hover, .circle:focus, .circle:active {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  filter: brightness(90%);
+}
+
 
 .swatches td{
   padding:0;
@@ -308,6 +325,7 @@ input[type="submit"]{
 
 </head>
 <body>
+
   <!-- start header Area -->
 	<header id="header">
 		<div class="container main-menu">
@@ -337,7 +355,7 @@ input[type="submit"]{
 <div style="height:115px;background-color:var(--gray-light-color)">
 </div>
 <div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER-PAGE1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-  <div class="col-lg-6 col-md-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
     <div width="100%" height="auto" style="margin-top:60%;margin-bottom: 60%;">
         &nbsp
     </div>
@@ -481,15 +499,15 @@ input[type="submit"]{
                             <h3>Pick your jersey colors:</h3>
                             <h5>Primary color</h5>
 
-                              <div class="circle" style="background-color:#000000;" onclick="MM_showHideLayers('blkbase1','','show','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
+                              <div class="circle hvr-grow" style="background-color:#000000;" onclick="MM_showHideLayers('blkbase1','','show','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
 
-                              <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','show','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BUR'"></div>
+                              <div class="circle hvr-grow" style="background-color:#6F263D" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','show','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BUR'"></div>
 
-                              <div class="circle" style="background-color:#3F4444" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','show','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
+                              <div class="circle hvr-grow" style="background-color:#3F4444" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','show','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
 
-                              <div class="circle" style="background-color:#92C1E9" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','show','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
+                              <div class="circle hvr-grow" style="background-color:#92C1E9" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','show','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
 
-                              <div class="circle" style="background-color:#FFB81C" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','show','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
+                              <div class="circle hvr-grow" style="background-color:#FFB81C" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','show','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
 
                               <div class="circle" style="background-color:#00594F" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','show','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'HUN'"></div>
 
@@ -582,7 +600,7 @@ input[type="submit"]{
 
                                 <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blkbase3','','hide','burbase3','','hide','chrbase3','','hide','colbase3','','hide','gldbase3','','hide','hunbase3','','hide','kelbase3','','hide','lembase3','','hide','limbase3','','hide','navbase3','','hide','orgbase3','','hide','redbase3','','hide','roybase3','','hide','silbase3','','hide','tngbase3','','hide','turbase3','','hide','whtbase3','','show');document.getElementById('neckcolor3').value = 'WHT'"></div> -->
 
-                              <h3 style="color:#3F4444;"><br>Now it's time to design your shorts:</h3>
+                              <h3><br>Now it's time to design your shorts:</h3>
                               <h5>Main color</h5>
 
                               <div class="circle" style="background-color:#000000" onclick="MM_showHideLayers('blksho1','','show','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'BLK'"></div>
@@ -621,7 +639,7 @@ input[type="submit"]{
                               <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','show','whtsho2','','hide');document.getElementById('shocolor2').value = 'TUR'"></div>
                               <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','show');document.getElementById('shocolor2').value = 'WHT'"></div>
 
-                              <h3 style="color:#00B5E2"><br>Select color of socks:</h3>
+                              <h3><br>Select color of socks:</h3>
                               <div class="circle" style="background-color:#000" onclick="MM_showHideLayers('blksock1','','show','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'BLK'"></div>
                               <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blksock1','','hide','bursock1','','show','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'BUR'"></div>
                               <div class="circle" style="background-color:#3F4444" onclick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','show','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'CHR'"></div>
@@ -888,11 +906,9 @@ input[type="submit"]{
       <span id='contactus_email_errorloc' class='error'></span>
     </div>
     <div class="col-sm-4">
-      <label for='logoI' ><font color="#6D6E71">Logo Upload*:</font></label>
-      <div class="radius" style="background-color:#6bd107;height:40px;color:white;">
-        <input type='file' name='Logo' id='logoI' value='<?php echo $formproc->SafeDisplay('nlogo') ?>' size="100%" style="margin-top:5px;margin-left:5px;"/>
-        <span id='contactus_email_errorloc' class='error'></span>
-      </div>
+      <label for='photo' ><font color="#6D6E71">Logo Upload*:</font></label>
+        <input class="genric-btn primary radius" type='file' name='photo' id='photo' multiple accept value='<?php echo $formproc->SafeDisplay('photo') ?>' maxlength="50" /><br/>
+        <span id='contactus_newupload_errorloc' class='error'></span>
     </div>
 
   </div>

@@ -1124,19 +1124,19 @@ h1, h2, h3, h4, h5, h6 {
       border: 1px solid transparent; }
   .genric-btn.primary {
     color: #fff;
-    background: #6bd107;
+    background: var(--secondary-color);
     border: 1px solid transparent; }
     .genric-btn.primary:hover {
-      color: #6bd107;
-      border: 1px solid #6bd107;
+      color: var(--secondary-color);
+      border: 1px solid var(--secondary-color);
       background: #fff; }
   .genric-btn.primary-border {
-    color: #6bd107;
-    border: 1px solid #6bd107;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     background: #fff; }
     .genric-btn.primary-border:hover {
       color: #fff;
-      background: #6bd107;
+      background: var(--secondary-color);
       border: 1px solid transparent; }
   .genric-btn.success {
     color: #fff;
