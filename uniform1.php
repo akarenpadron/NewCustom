@@ -75,6 +75,7 @@ css
 <link rel="stylesheet" href="css/main.css">
 <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="css/color-swatches.css">
+<link rel="stylesheet" href="css/custom2.css">
 <link rel="stylesheet" href="flipster.min.css">
 <script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
 
@@ -324,7 +325,7 @@ input[type="submit"]{
 </style>
 
 </head>
-<body>
+<body >
 
   <!-- start header Area -->
 	<header id="header">

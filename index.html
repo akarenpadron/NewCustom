@@ -41,40 +41,25 @@ CSS
 	<link rel="stylesheet" href="css/color-swatches.css">
 	<link rel="stylesheet" href="css/custom2.css">
 
-
 	<script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
 
 
 	<script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
     <script type='text/javascript' src='scripts/fg_captcha_validator.js'></script>
     
- <script type="text/javascript">
-var iWebkit;if(!iWebkit){iWebkit=window.onload=function(){function fullscreen(){var a=document.getElementsByTagName("a");for(var i=0;i<a.length;i++){if(a[i].className.match("noeffect")){}else{a[i].onclick=function(){window.location=this.getAttribute("href");return false}}}}function hideURLbar(){window.scrollTo(0,0.9)}iWebkit.init=function(){fullscreen();hideURLbar()};iWebkit.init()}}
-function MM_showHideLayers() { //v9.0
-  var i,p,v,obj,args=MM_showHideLayers.arguments;
-  for (i=0; i<(args.length-2); i+=3)
-  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
-    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
-    obj.visibility=v; }
-}
-</script>
-<meta name="apple-mobile-web-app-capable" content="yes" />
 	<style>
 	    html {
-	      box-sizing: border-box;
-	      background:#777777;
-	      font-family:'helvetica neue';
-	      font-size: 20px;
-	      font-weight: 200;
+	        box-sizing: border-box;
+	        background:#777777;
+	        font-family:'helvetica neue';
+	        font-size: 20px;
+	        font-weight: 200;
 	    }
 	    body {
-	      margin: 0;
+	        margin: 0;
 	    }
 	    *, *:before, *:after {
-	      box-sizing: inherit;
-	    }
-	    .header-scrolled{
-	    	background-color:var(--gray-color);
+	        box-sizing: inherit;
 	    }
 
 	</style>
@@ -92,7 +77,6 @@ BODY
 
 
 <body>
-	<!--<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>-->
 	<!-- start header Area -->
 	<header id="header">
 		<div class="container main-menu">
@@ -650,6 +634,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="flipster.min.js"></script>
 
+
+
 <!--
  ██████  ██████  ███    ██ ███████ ██  ██████
 ██      ██    ██ ████   ██ ██      ██ ██
@@ -680,6 +666,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				// nav: true,
 			});
 	</script>
+	
 	<script>
     function debounce(func, wait = 5, immediate = true) {
       var timeout;
@@ -700,22 +687,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     function checkSlide() {
         sliderImages.forEach(
         	sliderImage => {
-	        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
-	        const imageBottom = sliderImage.offsetTop + sliderImage.height;
-	        const isHalfShown = slideInAt > sliderImage.offsetTop;
-	        const isNotScrolledPast = window.scrollY < imageBottom;
-	        if (isHalfShown && isNotScrolledPast) {
-	          sliderImage.classList.add('active');
-	        } else {
-	          sliderImage.classList.remove('active');
-	        }
-        });
+		        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+		        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+		        const isHalfShown = slideInAt > sliderImage.offsetTop;
+		        const isNotScrolledPast = window.scrollY < imageBottom;
+		        if (isHalfShown && isNotScrolledPast) {
+		          sliderImage.classList.add('active');
+		        } else {
+		          sliderImage.classList.remove('active');
+		        }
+        	}
+        );
     }
     window.addEventListener('scroll', debounce(checkSlide));
+
+    const sliderImagesF = document.querySelectorAll('.slide-first');
+    function setSlide() {
+        sliderImagesF.forEach(
+        	sliderImageF => {
+	        	sliderImageF.classList.add('active');
+        	}
+        );
+    }
+    window.addEventListener('load', debounce(setSlide));
     
   </script>
-    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-	    <script>
+  
+    <!--<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script>
 	    $( document ).ready(function() {
 	        const slider0s = document.querySelectorAll('.slide-first');
 	        slider0s.forEach(slider0 => {
@@ -723,10 +722,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	      	});
 	      	document.getElementById("myVideo").playbackRate = 0.8; 
 	    });
-    </script>
+    </script>-->
   
 	<!-- CONFIG END -->
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 	 crossorigin="anonymous"></script>
 	<script src="js/tilt.jquery.min.js"></script>
@@ -743,22 +741,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/mail-script.js"></script>
-	<script src="js/main.js"></script>
 
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+
+
+
 	<script src="js/superfish.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
