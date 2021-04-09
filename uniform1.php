@@ -336,7 +336,7 @@ input[type="submit"]{
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a href="index.html">HOME</a></li>
-						<li class="menu-active"><a href="uniform1.php">DESIGN 1</a></li>
+						<li class="menu-active" style="background-color: rgba(255,255,255,0.05)"><a href="uniform1.php">DESIGN 1</a></li>
 						<li><a href="uniform2.php">DESIGN 2</a></li>
             <li><a href="uniform3.php">DESIGN 3</a></li>
             <li><a href="uniform4.php">DESIGN 4</a></li>
@@ -349,7 +349,25 @@ input[type="submit"]{
 				</nav>
 			</div>
 		</div>
- </header>
+  </header>
+
+<style>
+
+  li:hover{
+    background-color: rgba(255,255,255,0.05);
+    opacity:1;
+  }
+
+  #mobile-nav ul li a:hover {
+    opacity: 1; 
+  }
+
+  #mobile-nav ul li a{
+    font-size: 16px;
+    opacity:1;
+  }
+
+</style>
 	<!-- end header Area -->
 
 <div style="height:115px;background-color:var(--gray-light-color)">
@@ -375,129 +393,121 @@ input[type="submit"]{
   <!-- END TOP BANNER -->
 <div class="container">
   <div class="row swatch" style="padding-top: 10%;">
-
     <div class="col-lg-6">
       <div align="center" style="margin:auto; height:850px; width:290px">
 
+      <div id="blksho1"><img src="assets/Uniforms/P1D1/SHORT/design1-blk1.png" width="400" height="680" /></div>
+      <div id="bursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-bur1.png" width="400" height="680" /></div>
+      <div id="chrsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-chr1.png" width="400" height="680" /></div>
+      <div id="colsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-col1.png" width="400" height="680" /></div>
+      <div id="gldsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-gld1.png" width="400" height="680" /></div>
+      <div id="hunsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-hun1.png" width="400" height="680" /></div>
+      <div id="kelsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-kel1.png" width="400" height="680" /></div>
+      <div id="lemsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lem1.png" width="400" height="680" /></div>
+      <div id="limsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lim1.png" width="400" height="680" /></div>
+      <div id="navsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-nav1.png" width="400" height="680" /></div>
+      <div id="orgsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-org1.png" width="400" height="680" /></div>
+      <div id="redsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-red1.png" width="400" height="680" /></div>
+      <div id="roysho1"><img src="assets/Uniforms/P1D1/SHORT/design1-roy1.png" width="400" height="680" /></div>
+      <div id="silsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-sil1.png" width="400" height="680" /></div>
+      <div id="tursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-tur1.png" width="400" height="680" /></div>
+      <div id="whtsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-wht1.png" width="400" height="680" /></div>
 
-                              <div id="blksho1"><img src="assets/Uniforms/P1D1/SHORT/design1-blk1.png" width="400" height="680" /></div>
-                              <div id="bursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-bur1.png" width="400" height="680" /></div>
-                              <div id="chrsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-chr1.png" width="400" height="680" /></div>
-                              <div id="colsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-col1.png" width="400" height="680" /></div>
-                              <div id="gldsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-gld1.png" width="400" height="680" /></div>
-                              <div id="hunsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-hun1.png" width="400" height="680" /></div>
-                              <div id="kelsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-kel1.png" width="400" height="680" /></div>
-                              <div id="lemsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lem1.png" width="400" height="680" /></div>
-                              <div id="limsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lim1.png" width="400" height="680" /></div>
-                              <div id="navsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-nav1.png" width="400" height="680" /></div>
-                              <div id="orgsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-org1.png" width="400" height="680" /></div>
-                              <div id="redsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-red1.png" width="400" height="680" /></div>
-                              <div id="roysho1"><img src="assets/Uniforms/P1D1/SHORT/design1-roy1.png" width="400" height="680" /></div>
-                              <div id="silsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-sil1.png" width="400" height="680" /></div>
-                              <div id="tursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-tur1.png" width="400" height="680" /></div>
-                              <div id="whtsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-wht1.png" width="400" height="680" /></div>
+      <div id="blksho2"><img src="assets/Uniforms/P1D1/SHORT/design1-blk2.png" width="400" height="680" /></div>
+      <div id="bursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-bur2.png" width="400" height="680" /></div>
+      <div id="chrsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-chr2.png" width="400" height="680" /></div>
+      <div id="colsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-col2.png" width="400" height="680" /></div>
+      <div id="gldsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-gld2.png" width="400" height="680" /></div>
+      <div id="hunsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-hun2.png" width="400" height="680" /></div>
+      <div id="kelsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-kel2.png" width="400" height="680" /></div>
+      <div id="lemsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lem2.png" width="400" height="680" /></div>
+      <div id="limsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lim2.png" width="400" height="680" /></div>
+      <div id="navsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-nav2.png" width="400" height="680" /></div>
+      <div id="orgsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-org2.png" width="400" height="680" /></div>
+      <div id="redsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-red2.png" width="400" height="680" /></div>
+      <div id="roysho2"><img src="assets/Uniforms/P1D1/SHORT/design1-roy2.png" width="400" height="680" /></div>
+      <div id="silsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-sil2.png" width="400" height="680" /></div>
+      <div id="tursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-tur2.png" width="400" height="680" /></div>
+      <div id="whtsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-wht2.png" width="400" height="680" /></div>
 
-                              <div id="blksho2"><img src="assets/Uniforms/P1D1/SHORT/design1-blk2.png" width="400" height="680" /></div>
-                              <div id="bursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-bur2.png" width="400" height="680" /></div>
-                              <div id="chrsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-chr2.png" width="400" height="680" /></div>
-                              <div id="colsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-col2.png" width="400" height="680" /></div>
-                              <div id="gldsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-gld2.png" width="400" height="680" /></div>
-                              <div id="hunsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-hun2.png" width="400" height="680" /></div>
-                              <div id="kelsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-kel2.png" width="400" height="680" /></div>
-                              <div id="lemsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lem2.png" width="400" height="680" /></div>
-                              <div id="limsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lim2.png" width="400" height="680" /></div>
-                              <div id="navsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-nav2.png" width="400" height="680" /></div>
-                              <div id="orgsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-org2.png" width="400" height="680" /></div>
-                              <div id="redsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-red2.png" width="400" height="680" /></div>
-                              <div id="roysho2"><img src="assets/Uniforms/P1D1/SHORT/design1-roy2.png" width="400" height="680" /></div>
-                              <div id="silsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-sil2.png" width="400" height="680" /></div>
-                              <div id="tursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-tur2.png" width="400" height="680" /></div>
-                              <div id="whtsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-wht2.png" width="400" height="680" /></div>
+      <div id="blkbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk1.png" width="400" height="680" /></div>
+      <div id="burbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur1.png" width="400" height="680" /></div>
+      <div id="chrbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr1.png" width="400" height="680" /></div>
+      <div id="colbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-col1.png" width="400" height="680" /></div>
+      <div id="gldbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld1.png" width="400" height="680" /></div>
+      <div id="hunbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun1.png" width="400" height="680" /></div>
+      <div id="kelbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel1.png" width="400" height="680" /></div>
+      <div id="lembase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem1.png" width="400" height="680" /></div>
+      <div id="limbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim1.png" width="400" height="680" /></div>
+      <div id="navbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav1.png" width="400" height="680" /></div>
+      <div id="orgbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-org1.png" width="400" height="680" /></div>
+      <div id="redbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-red1.png" width="400" height="680" /></div>
+      <div id="roybase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy1.png" width="400" height="680" /></div>
+      <div id="silbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil1.png" width="400" height="680" /></div>
+      <div id="turbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur1.png" width="400" height="680" /></div>
+      <div id="whtbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht1.png" width="400" height="680" /></div>
 
+      <div id="blkbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk2.png" width="400" height="680" /></div>
+      <div id="burbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur2.png" width="400" height="680" /></div>
+      <div id="chrbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr2.png" width="400" height="680" /></div>
+      <div id="colbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-col2.png" width="400" height="680" /></div>
+      <div id="gldbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld2.png" width="400" height="680" /></div>
+      <div id="hunbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun2.png" width="400" height="680" /></div>
+      <div id="kelbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel2.png" width="400" height="680" /></div>
+      <div id="lembase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem2.png" width="400" height="680" /></div>
+      <div id="limbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim2.png" width="400" height="680" /></div>
+      <div id="navbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav2.png" width="400" height="680" /></div>
+      <div id="orgbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-org2.png" width="400" height="680" /></div>
+      <div id="redbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-red2.png" width="400" height="680" /></div>
+      <div id="roybase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy2.png" width="400" height="680" /></div>
+      <div id="silbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil2.png" width="400" height="680" /></div>
+      <div id="turbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur2.png" width="400" height="680" /></div>
+      <div id="whtbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht2.png" width="400" height="680" /></div>
 
+      <!-- NECK -->
+      <!-- <div id="blkbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk3.png" width="400" height="680" /></div>
+      <div id="burbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur3.png" width="400" height="680" /></div>
+      <div id="chrbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr3.png" width="400" height="680" /></div>
+      <div id="colbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-col3.png" width="400" height="680" /></div>
+      <div id="gldbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld3.png" width="400" height="680" /></div>
+      <div id="hunbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun3.png" width="400" height="680" /></div>
+      <div id="kelbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel3.png" width="400" height="680" /></div>
+      <div id="navbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav3.png" width="400" height="680" /></div>
+      <div id="orgbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-org3.png" width="400" height="680" /></div>
+      <div id="redbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-red3.png" width="400" height="680" /></div>
+      <div id="roybase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy3.png" width="400" height="680" /></div>
+      <div id="silbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil3.png" width="400" height="680" /></div>
+      <div id="whtbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht3.png" width="400" height="680" /></div>
+      <div id="limbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim3.png" width="400" height="680" /></div>
+      <div id="lembase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem3.png" width="400" height="680" /></div>
+      <div id="turbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur3.png" width="400" height="680" /></div> -->
 
+      <div id="blksock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-blk1.png" width="400" height="680" /></div>
+      <div id="bursock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-bur1.png" width="400" height="680" /></div>
+      <div id="chrsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-chr1.png" width="400" height="680" /></div>
+      <div id="colsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-col1.png" width="400" height="680" /></div>
+      <div id="gldsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-gld1.png" width="400" height="680" /></div>
+      <div id="hunsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-hun1.png" width="400" height="680" /></div>
+      <div id="navsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-nav1.png" width="400" height="680" /></div>
+      <div id="orgsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-org1.png" width="400" height="680" /></div>
+      <div id="redsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-red1.png" width="400" height="680" /></div>
+      <div id="roysock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-roy1.png" width="400" height="680" /></div>
+      <div id="whtsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-wht1.png" width="400" height="680" /></div>
 
-                              <div id="blkbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk1.png" width="400" height="680" /></div>
-                              <div id="burbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur1.png" width="400" height="680" /></div>
-                              <div id="chrbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr1.png" width="400" height="680" /></div>
-                              <div id="colbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-col1.png" width="400" height="680" /></div>
-                              <div id="gldbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld1.png" width="400" height="680" /></div>
-                              <div id="hunbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun1.png" width="400" height="680" /></div>
-                              <div id="kelbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel1.png" width="400" height="680" /></div>
-                              <div id="lembase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem1.png" width="400" height="680" /></div>
-                              <div id="limbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim1.png" width="400" height="680" /></div>
-                              <div id="navbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav1.png" width="400" height="680" /></div>
-                              <div id="orgbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-org1.png" width="400" height="680" /></div>
-                              <div id="redbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-red1.png" width="400" height="680" /></div>
-                              <div id="roybase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy1.png" width="400" height="680" /></div>
-                              <div id="silbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil1.png" width="400" height="680" /></div>
-                              <div id="turbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur1.png" width="400" height="680" /></div>
-                              <div id="whtbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht1.png" width="400" height="680" /></div>
-
-                              <div id="blkbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk2.png" width="400" height="680" /></div>
-                              <div id="burbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur2.png" width="400" height="680" /></div>
-                              <div id="chrbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr2.png" width="400" height="680" /></div>
-                              <div id="colbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-col2.png" width="400" height="680" /></div>
-                              <div id="gldbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld2.png" width="400" height="680" /></div>
-                              <div id="hunbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun2.png" width="400" height="680" /></div>
-                              <div id="kelbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel2.png" width="400" height="680" /></div>
-                              <div id="lembase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem2.png" width="400" height="680" /></div>
-                              <div id="limbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim2.png" width="400" height="680" /></div>
-                              <div id="navbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav2.png" width="400" height="680" /></div>
-                              <div id="orgbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-org2.png" width="400" height="680" /></div>
-                              <div id="redbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-red2.png" width="400" height="680" /></div>
-                              <div id="roybase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy2.png" width="400" height="680" /></div>
-                              <div id="silbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil2.png" width="400" height="680" /></div>
-                              <div id="turbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur2.png" width="400" height="680" /></div>
-                              <div id="whtbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht2.png" width="400" height="680" /></div>
-
-                              <!-- NECK -->
-                              <!-- <div id="blkbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk3.png" width="400" height="680" /></div>
-                              <div id="burbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur3.png" width="400" height="680" /></div>
-                              <div id="chrbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr3.png" width="400" height="680" /></div>
-                              <div id="colbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-col3.png" width="400" height="680" /></div>
-                              <div id="gldbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld3.png" width="400" height="680" /></div>
-                              <div id="hunbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun3.png" width="400" height="680" /></div>
-                              <div id="kelbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel3.png" width="400" height="680" /></div>
-                              <div id="navbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav3.png" width="400" height="680" /></div>
-                              <div id="orgbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-org3.png" width="400" height="680" /></div>
-                              <div id="redbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-red3.png" width="400" height="680" /></div>
-                              <div id="roybase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy3.png" width="400" height="680" /></div>
-                              <div id="silbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil3.png" width="400" height="680" /></div>
-                              <div id="whtbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht3.png" width="400" height="680" /></div>
-                              <div id="limbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim3.png" width="400" height="680" /></div>
-                              <div id="lembase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem3.png" width="400" height="680" /></div>
-                              <div id="turbase3"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur3.png" width="400" height="680" /></div> -->
-
-                              <div id="blksock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-blk1.png" width="400" height="680" /></div>
-                              <div id="bursock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-bur1.png" width="400" height="680" /></div>
-                              <div id="chrsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-chr1.png" width="400" height="680" /></div>
-                              <div id="colsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-col1.png" width="400" height="680" /></div>
-                              <div id="gldsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-gld1.png" width="400" height="680" /></div>
-                              <div id="hunsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-hun1.png" width="400" height="680" /></div>
-                              <div id="navsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-nav1.png" width="400" height="680" /></div>
-                              <div id="orgsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-org1.png" width="400" height="680" /></div>
-                              <div id="redsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-red1.png" width="400" height="680" /></div>
-                              <div id="roysock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-roy1.png" width="400" height="680" /></div>
-                              <div id="whtsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-wht1.png" width="400" height="680" /></div>
-
-                              <!--
-                              <div id="whtsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtwht1.png" width="400" height="680" /></div>
-                              <div id="troysock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtroy1.png" width="400" height="680" /></div>
-                              <div id="tredsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtred1.png" width="400" height="680" /></div>
-                              <div id="tnavsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtnav1.png" width="400" height="680" /></div>
-                              <div id="thunsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whthun1.png" width="400" height="680" /></div>
-                              <div id="tgoldsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtgld1.png" width="400" height="680" /></div>
-                              <div id="tbursock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtbur1.png" width="400" height="680" /></div>
-                              <div id="tblacksock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtblk1.png" width="400" height="680" /></div>-->
-            </div>
-          </div>
-
-
-
-                          <div class="col-lg-6 colors">
-                            <h3>Pick your jersey colors:</h3>
-                            <h5>Primary color</h5>
+      <!--
+      <div id="whtsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtwht1.png" width="400" height="680" /></div>
+      <div id="troysock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtroy1.png" width="400" height="680" /></div>
+      <div id="tredsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtred1.png" width="400" height="680" /></div>
+      <div id="tnavsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtnav1.png" width="400" height="680" /></div>
+      <div id="thunsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whthun1.png" width="400" height="680" /></div>
+      <div id="tgoldsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtgld1.png" width="400" height="680" /></div>
+      <div id="tbursock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtbur1.png" width="400" height="680" /></div>
+      <div id="tblacksock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-whtblk1.png" width="400" height="680" /></div>-->
+    </div>
+  </div>
+  <div class="col-lg-6 colors">
+    <h3>Pick your jersey colors:</h3>
+      <h5>Primary color</h5>
 
                               <div class="circle hvr-grow" style="background-color:#000000;" onclick="MM_showHideLayers('blkbase1','','show','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
 

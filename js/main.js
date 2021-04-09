@@ -119,8 +119,9 @@ $(document).ready(function () {
                 }
 
                 if ($('body').hasClass('mobile-nav-active')) {
-                    $('body').removeClass('mobile-nav-active');
-                    $('#mobile-nav-toggle i').toggleClass('lnr-times lnr-bars');
+                    $('body').removeClass('mobile-nav-active'); 
+                    $('#mobile-nav-toggle i').toggleClass('lnr lnr-menu lnr-times lnr-bars'); // replacing the other line
+                    //$('#mobile-nav-toggle i').toggleClass('lnr-times lnr-bars');
                     $('#mobile-body-overly').fadeOut();
                 }
                 return false;
