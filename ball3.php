@@ -12,7 +12,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
+$formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -54,7 +54,7 @@ if(isset($_POST['submitted']))
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Custom Ball Studio</title>
+  <title>SCORE Custom Ball 3</title>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/favicon.png">
@@ -311,7 +311,12 @@ input[type="submit"]{
 </section>
   <!-- END TOP BANNER -->
 
-
+<style>
+  .ballImageSection img{
+    width:377px;
+    height:377px;
+  }
+</style>
 <div class="row swatch">
   <div class="col-sm-6">
     <div class="ballImageSection" align="center" style="margin:auto; height:350px; width:290px">
@@ -319,59 +324,23 @@ input[type="submit"]{
       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
       <script>
         $( document ).ready(function() {
-          const array1 = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
-          array1.forEach(element => 
-            document.getElementById(element+"ballimg1").src="assets/Balls/DESIGN3/design3-"+element+"1.png"
-          );
-          array1.forEach(element => 
-            document.getElementById(element+"ballimg2").src="assets/Balls/DESIGN3/design3-"+element+"2.png"
-          );
+          var colors = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
+          colors.forEach(myFunction);
+          function myFunction(item) {
+            document.getElementById(item+"ballimg1").src="assets/Balls/DESIGN3/design3-"+item+"1.png";
+            document.getElementById(item+"ballimg2").src="assets/Balls/DESIGN3/design3-"+item+"2.png";
+          }
         });
       </script>
-
-      <style>
-        .ballImageSection img{
-          width:377px;
-          height:377px;
-        }
-      </style>
-  
-
-      <div id="d1-ball"><img src="assets/Balls/DESIGN3/ball-color.png" width="290" height="290" /></div>
       
-      <div id="d1-blk1"><img id="blkballimg1"/></div>
-      <div id="d1-chr1"><img id="chrballimg1"/></div>
-      <div id="d1-col1"><img id="colballimg1"/></div>
-      <div id="d1-gld1"><img id="gldballimg1"/></div>
-      <div id="d1-hun1"><img id="hunballimg1"/></div>
-      <div id="d1-kel1"><img id="kelballimg1"/></div>
-      <div id="d1-lem1"><img id="lemballimg1"/></div>
-      <div id="d1-lim1"><img id="limballimg1"/></div>
-      <div id="d1-nav1"><img id="navballimg1"/></div>
-      <div id="d1-org1"><img id="orgballimg1"/></div>
-      <div id="d1-pur1"><img id="purballimg1"/></div>
-      <div id="d1-red1"><img id="redballimg1"/></div>
-      <div id="d1-roy1"><img id="royballimg1"/></div>
-      <div id="d1-sil1"><img id="silballimg1"/></div>
-      <div id="d1-tur1"><img id="turballimg1"/></div>
-      <div id="d1-wht1"><img id="whtballimg1"/></div>
-
-      <div id="d1-blk2"><img id="blkballimg2"/></div>
-      <div id="d1-chr2"><img id="chrballimg2"/></div>
-      <div id="d1-col2"><img id="colballimg2"/></div>
-      <div id="d1-gld2"><img id="gldballimg2"/></div>
-      <div id="d1-hun2"><img id="hunballimg2"/></div>
-      <div id="d1-kel2"><img id="kelballimg2"/></div>
-      <div id="d1-lem2"><img id="lemballimg2"/></div>
-      <div id="d1-lim2"><img id="limballimg2"/></div>
-      <div id="d1-nav2"><img id="navballimg2"/></div>
-      <div id="d1-org2"><img id="orgballimg2"/></div>
-      <div id="d1-pur2"><img id="purballimg2"/></div>
-      <div id="d1-red2"><img id="redballimg2"/></div>
-      <div id="d1-roy2"><img id="royballimg2"/></div>
-      <div id="d1-sil2"><img id="silballimg2"/></div>
-      <div id="d1-tur2"><img id="turballimg2"/></div>
-      <div id="d1-wht2"><img id="whtballimg2"/></div>
+      <div id="d1-ball"><img src="assets/Balls/DESIGN3/ball-color.png"/></div>
+      <?php  
+        $colors = array('blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
+        foreach($colors as $color){
+          echo "<div id='d1-".$color."1'><img id='".$color."ballimg1'/></div>";
+          echo "<div id='d1-".$color."2'><img id='".$color."ballimg2'/></div>";
+        }
+      ?>$
 
     </div>
 	</div>
@@ -573,8 +542,8 @@ input[type="submit"]{
 
       </div>
       <div class="col-sm-6">
-        <label class="genric-btn primary radius" for='photo' ><font color="#6D6E71">Logo Upload*:</font></label>
-        <input type='file' name='photo' id='photo' multiple accept value='<?php echo $formproc->SafeDisplay('photo') ?>' maxlength="50" /><br/>
+        <label for='photo' ><font color="#6D6E71">Logo Upload*:</font></label>
+        <input class="genric-btn primary radius" type='file' name='photo' id='photo' multiple accept value='<?php echo $formproc->SafeDisplay('photo') ?>' maxlength="50" /><br/>
         <span id='contactus_newupload_errorloc' class='error'></span>
       </div>
       </div>

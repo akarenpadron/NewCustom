@@ -12,7 +12,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
+$formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -52,7 +52,7 @@ if(isset($_POST['submitted']))
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Custom Uniform Studio</title>
+	<title>SCORE Custom Uniform 2</title>
 
 
 

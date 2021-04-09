@@ -12,7 +12,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
+$formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -54,7 +54,7 @@ if(isset($_POST['submitted']))
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Custom Ball Studio</title>
+	<title>SCORE Custom Ball 1</title>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/fav.png">
@@ -478,7 +478,7 @@ input[type="submit"]{
               <div class="row">
 
                   <div class="col-lg-6 col-md-6 single-footer-widget text-center">
-                    <h2>Price starting at</h2>
+                    <h2>Pricing starting at</h2>
                     <h1>$10.95</h1>
                       <p><a href="#con3" data-toggle="modal" class="genric-btn primary radius"  role="button">Order Time Frames</a></p>
                   </div>
@@ -487,7 +487,7 @@ input[type="submit"]{
                     <h2>4 EASY STEPS</h2>
                       <ul class="text-white mt-10">
                         <li>1. Submit your design colors and information.</li>
-                        <li>2. A SCORE<span style="font-size:10px;">®</span> Expert will contact you to provide exceptional service.</li>
+                        <li>2. A SCORE<span style="font-size:10px;">®</span> representative will contact you to provide exceptional service.</li>
                         <li>3. Please have club logo information ready to provide to your sales representative.</li>
                         <li>4. Place your order.</li>
                       </ul>
@@ -517,7 +517,13 @@ input[type="submit"]{
           </div>
       </div>
    </div>
-
+  <style>
+    .modal-body ul {
+      list-style: disc outside;
+      margin-left: 20px;
+      padding-left: 0;
+    }
+  </style>
 
           <div id="con1" class="modal fade" tabindex="-1">
    	<div class="modal-dialog" style="background-color:#FFF">
@@ -530,15 +536,15 @@ input[type="submit"]{
           <h5>Terms</h5>
               	<ul>
                   <br>
-                  	<li>&#x25B8; 200 Ball minimum required for custom orders.</li>
-                  	<li>&#x25B8; Ball design available in maximum of 3 colors (1 ball base color <span style="padding-left:15px;">& 2 design colors).</li>
-                      <li>&#x25B8; Delivery is approximately 120 days after order has been <span style="padding-left:15px;">finalized and sample artwork has been approved.</li>
-                      <li>&#x25B8; Logo placement is available up to 6 locations.</li>
-                      <li>&#x25B8; In our experience, most orders arrive on time.  However, delivery <span style="padding-left:15px;">dates may vary due to manufacturer performance or any other <span style="padding-left:15px;">delays caused by sea transportation (shipping), US custom or <span style="padding-left:15px;">any Act of God. </li>
-                  	  <li>&#x25B8; Rush delivery (air freight) is available for an additional charge <span style="padding-left:15px;">per ball.</li>
-                      <li>&#x25B8; All orders are final.  Once an order has been placed, it cannot be <span style="padding-left:15px;">changed or cancelled. </li>
-                      <li>&#x25B8; A 50% deposit is required at time of order placement and <span style="padding-left:15px;">remaining balance will be due at time of shipment.</li>
-       				        <li>&#x25B8; 1-year warranty on manufacturer defects.</li>
+                  	<li>100 ball minimum required for custom ball orders.</li>
+                  	<li>Ball design available in maximum of 3 colors (1 ball base color & 2 design colors).</li>
+                      <li>Delivery is approximately 120 days after order has been finalized and sample artwork has been approved.</li>
+                      <li>Logo placement is available up to 6 locations.</li>
+                      <li>&In our experience, most orders arrive on time.  However, delivery dates may vary due to manufacturer performance or any other delays caused by sea transportation (shipping), US custom or any Act of God. </li>
+                  	  <li>Rush delivery (air freight) is available for an additional charge per ball.</li>
+                      <li>All orders are final.  Once an order has been placed, it cannot be changed or cancelled. </li>
+                      <li>A 50% deposit is required at time of order placement and remaining balance will be due at time of shipment.</li>
+       				        <li>1-year warranty on manufacturer defects.</li>
                       <br>
                   </ul>
 
@@ -574,7 +580,12 @@ input[type="submit"]{
             <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
             </div>
             <div class="col-lg12 single-footer-widget">
-              <h2>Submit Your Custom Ball Request Here:</h2>
+              <h2>Complete the form below to start your custom ball order:</h2>
+              <ul>
+                Add all the fields<br>
+                Add the “Submit” button
+              </ul>
+              <br>
               <p>*Required fields</p>
             </div>
 

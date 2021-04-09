@@ -14,7 +14,7 @@ $formproc = new FGContactForm();
 //You can add more than one receipients.
 //$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
 
-$formproc->AddRecipient('sales@scoresports.com, diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
+$formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
 $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
@@ -52,7 +52,7 @@ if(isset($_POST['submitted']))
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Custom Uniform Studio</title>
+	<title>SCORE Custom Uniform 1</title>
 
 
 
@@ -373,9 +373,9 @@ input[type="submit"]{
 
 <div style="height:115px;background-color:var(--gray-light-color)">
 </div>
-<div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER-PAGE1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+<div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER-1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
   <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
-    <div width="100%" height="auto" style="margin-top:60%;margin-bottom: 60%;">
+    <div width="100%" height="auto" style="margin-top:50%;margin-bottom: 60%;">
         &nbsp
     </div>
   </div>
@@ -678,19 +678,18 @@ input[type="submit"]{
   <div class="container">
               <div class="row">
                   <div class="col-lg-6 col-md-6 single-footer-widget text-center">
-                    <h2><br>Price starting at</h2>
+                    <h2><br>Pricing Starting At</h2>
                     <h1>$60.00</h1>
                       <p><a href="#con3" data-toggle="modal" class="genric-btn primary radius"  role="button">Kit Packages</a></p>
                   </div>
 
                   <div class="col-lg-6 col-md-6 single-footer-widget" style="text-align: center;">
                     <img src="img/FABRICS-ICON.png">
-                    <h2 >OUR FABRICS</h2>
+                    <h2>SCORE FABRICS</h2>
                       <ul class="mt-10">
                         <li>Moisture wicking fabric technology.</li>
                         <li>Breathable fabric to accommodate all climates.</li>
-                        <li> State-of-the-art sublimation capabilities.</li>
-                        <li> Earth-Friendly dye production.</li>
+                        <li>State-of-the-art sublimation capabilities.</li>
                       </ul>
                   </div>
               </div>
@@ -701,7 +700,13 @@ input[type="submit"]{
 
 
 
-
+  <style>
+    .modal-body ul {
+        list-style: disc outside;
+        margin-left: 20px;
+        padding-left: 0;
+    }
+  </style>
 
   <div id="con3" class="modal fade" tabindex="-1">
   <div class="modal-dialog" style="background-color:#FFF">
@@ -711,41 +716,41 @@ input[type="submit"]{
   </div>
   <div class="modal-body">
     <ul>
-      <li>Premier Kit includes</li>
-      <ul>
+      <li>Premier Kit Includes</li>
+      <ul style="list-style: circle outside;">
         <br>
         <li>2 Jerseys</li>
         <li>2 Pairs of Shorts</li>
         <li>2 Pairs of Socks</li>
         <br>
       </ul>
-      <li>Elite Kit</li>
-      <ul>
+      <li>Elite Kit Includes</li>
+      <ul style="list-style: circle outside;">
         <br>
         <li>2 Jerseys</li>
         <li>1 Pair of Shorts</li>
         <li>2 Pairs of Socks</li>
         <br>
       </ul>
-      <li>Travel Kit</li>
-      <ul>
+      <li>Travel Kit Includes</li>
+      <ul style="list-style: circle outside;">
         <br>
         <li>2 Jerseys</li>
         <li>1 Pairs of Shorts</li>
         <li>1 Pairs of Socks</li>
         <br>
       </ul>
-      <li>SCORE Kit</li>
-      <ul>
+      <li>SCORE Kit Includes</li>
+      <ul style="list-style: circle outside;">
         <br>
         <li>1 Jersey</li>
         <li>1 Pair of Shorts</li>
         <li>1 Pairs of Socks</li>
         <br>
       </ul>
-
+    </ul>
+    <ul style="list-style: none;margin-left: 0px">
       <li>*See terms &amp; conditions for additional information and timeframes.</li>
-
     </ul>
   </div>
   <div class="modal-footer">
@@ -765,27 +770,30 @@ input[type="submit"]{
         <h5>Terms</h5>
         <ul>
           <br>
-          <li>&#x25B8; 100 Player minimum order. Minimum orders must be at least <span style="padding-left:15px;"> 100 per item & color.</li>
-          <li>&#x25B8; 3-year minimum contract is required.</li>
-          <li>&#x25B8; Production time 4-5 weeks from the day the art and sample <span style="padding-left:15px;">uniform are approved and order is processed.</li>
-          <li>&#x25B8; Sales representative will review the custom uniform timeline.</li>
-          <li>&#x25B8; Preliminary/Booking order is highly recommended.</li>
-          <li>&#x25B8; Time frames may change depending on the time of the year the <span style="padding-left:15px;">order is placed.</li>
-          <li>&#x25B8; All remaining customized products must be purchased at the <span style="padding-left:15px;">end of the agreement.</li>
+          <li>100 Player minimum order. Minimum orders must be at least 100 per item & per color.</li>
+          <li>3-year minimum contract is required.</li>
+          <li>Production time is 4-5 weeks from the day the order is processed, with the approval of both the artwork and sample uniform. </li>
+          <li>Sales representative will review the custom uniform timeline.</li>
+          <li>Preliminary/Booking order is highly recommended.</li>
+          <li>Time frames may change depending on the time of the year the order is placed.</li>
+          <li>All remaining customized products must be purchased at the end of the agreement.</li>
           <br>
         </ul>
         <h5>Custom Uniform Order Tips</h5>
         <ul>
           <br>
-          <li>&#x25B8; Select your color combinations ahead of time.</li>
-          <li>&#x25B8; Provide a JPG format of your logo.</li>
-          <li>&#x25B8; Allow enough time for art comps, approval & production time.</li>
+          <li>Select your color combinations ahead of time.</li>
+          <li>Provide a JPG format of your logo.</li>
+          <li>Allow enough time for art comps, approval & production time.</li>
           <br>
         </ul>
         <h5>Sizing Information</h5>
         <ul>
           <br>
-          <li>Numerical Sizing Comparison</li>
+          </ul>
+        <ul>
+          <li>Numerical Sizing Comparison<br>This comparison gives an indication of sizes only and are by no means exact as they vary from manufacturer to manufacturer - sometimes by a full inch up and down.</li>
+          
           <br>
           <ul>
             <li>SCORE YXXS Similar to a 3-4</li>
@@ -796,9 +804,9 @@ input[type="submit"]{
             <li>SCORE AS Similar to a 14-16</li>
             <br>
           </ul>
+          <li>No custom uniforms will be manufactured between July 1, 2021 – September 30, 2021</li>
           <br>
-          <li>This comparison gives an indication of sizes only and are by no means exact as they vary from manufacturer to manufacturer - sometimes by a full inch up and down.</li>
-          <li>No custom uniforms will be manufactured between July 1, 2020 – September 30, 2020</li>
+          
         </ul>
     </div>
     <div class="modal-footer">
@@ -832,11 +840,16 @@ input[type="submit"]{
           <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Pattern 1 - Design 1" type="hidden" /></h2>
           </div>
           <div id="order" class='short_explanation'>
-          <h2>Order your customized uniform here:</h2>
+          <h2>Complete the form below to start your custom uniform order:</h2>
+          <ul>
+            Add all the fields<br>
+            Add the “Submit” button
+          </ul>
+          <br>
           <p>*Required fields</p>
           </div>
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-
+  
 <div class="row">
 <div class="col-lg-6 col-sm-12">
 <label for='name' ><font color="#6D6E71">Contact Name*: </font></label>
