@@ -1,34 +1,18 @@
 <?PHP
-/*
-    Contact Form from HTML Form Guide
-    This program is free software published under the
-    terms of the GNU Lesser General Public License.
-    See this page for more info:
-    http://www.html-form-guide.com/contact-form/contact-form-attachment.html
-*/
-require_once("./include/fgcontactform.php");
-
-$formproc = new FGContactForm();
-
-//1. Add your email address here.
-//You can add more than one receipients.
-$formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
-
-
-//2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
-// and put it here
-$formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
-
-$formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
-
-if(isset($_POST['submitted']))
-{
-   if($formproc->ProcessForm())
-   {
-        $formproc->RedirectToURL("thank-you.php");
-   }
-}
-
+  //Contact Form from HTML Form Guide
+  //This program is free software published under the terms of the GNU Lesser General Public License.
+  //See this page for more info: http://www.html-form-guide.com/contact-form/contact-form-attachment.html
+  require_once("./include/fgcontactform.php");
+  $formproc = new FGContactForm();
+  $formproc->AddRecipient('diseno15@mesquitamaquiladora.com');
+  //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr and put it here
+  $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+  $formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
+  if(isset($_POST['submitted'])){
+    if($formproc->ProcessForm()){
+      $formproc->RedirectToURL("thank-you.php");
+    }
+  }
 ?>
 
 <!DOCTYPE html>
@@ -55,7 +39,6 @@ if(isset($_POST['submitted']))
 	<title>SCORE Custom Uniform 2</title>
 
 
-
 	<!--
    ██████ ███████ ███████
   ██      ██      ██
@@ -73,6 +56,7 @@ css
 <link rel="stylesheet" href="css/hexagons.min.css">
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/custom2.css">
 <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="flipster.min.css">
 <script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
@@ -92,210 +76,6 @@ function MM_showHideLayers() { //v9.0
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<style type="text/css">
-
-
-
-.site-logo img{
-  width:auto;
-  height:50px;
-  margin:0px;
-}
-
-.title{
-  color:#fff;
-  /* text-align: center; */
-  padding: 20px 60px 20px 60px;
-}
-
-/* TITLE CSS */
-
-.title h2{
-  color:#fff;
-  margin-top: 0rem;
-  margin-bottom:1rem;
-  padding:0 50px;
-}
-
-.title h3{
-  color:#BA0C2F;
-  margin-top: 3rem;
-  margin-bottom:1rem;
-  padding:0 50px;
-  font-size: 30px;
-}
-
-.title p{
-  padding:0 50px;
-  color:#eaeaea;
-}
-
-#base{
-	visibility: hidden;
-}
-#apDiv1 {
-	position:absolute;
-	width:290px;
-	height:115px;
-	z-index:1;
-	left: 518px;
-	top: 0px;
-}
-#whtbase1, #whtbase2, #blkbase1, #blkbase2, #burbase1, #burbase2, #chrbase1, #chrbase2, #colbase1, #colbase2, #gldbase1, #gldbase2, #hunbase1, #hunbase2, #kelbase1, #kelbase2, #lembase1, #lembase2, #limbase1, #limbase2, #navbase1, #navbase2, #orgbase1, #orgbase2, #redbase1, #redbase2, #roybase1, #roybase2, #silbase1, #silbase2, #turbase1, #turbase2{
-  position:absolute;
-  /* width:290px;
-  height:115px; */
-  z-index:1;
-  top:30px;
-  visibility: hidden;
-}
-
-/* NECK */
-/* #blkbase3, #burbase3, #chrbase3, #colbase3, #gldbase3, #hunbase3, #kelbase3, #lembase3, #limbase3, #navbase3, #orgbase3, #redbase3, #roybase3, #silbase3, #turbase3, #whtbase3{
-  position:absolute;
-  z-index:1;
-  top:30px;
-  visibility: hidden;
-} */
-
-#blksock1, #bursock1, #chrsock1, #colsock1, #gldsock1, #hunsock1, #navsock1, #orgsock1, #redsock1, #roysock1, #tursock2, #whtsock1, #troysock1, #tredsock1, #tnavsock1, #thunsock1, #tgoldsock1, #tbursock1, #tblacksock1{
-  position:absolute;
-  /* width:290px; */
-  /* height:115px; */
-  z-index:1;
-  top:30px;
-  visibility: hidden;
-}
-
-#redbase3, #blkbase1, #redbase2, #redsock1 {
-  position:absolute;
-  /* width:290px;
-  height:115px; */
-  z-index:1;
-  top: 30px;
-  visibility: visible;
-}
-
-#redsho2, #blksho1, #redsho2 {
-  position:absolute;
-  /* width:290px;
-  height:115px; */
-  z-index:1;
-  top: 30px;
-  visibility: visible;
-}
-
-#whtsho1, #whtsho2, #blksho2, #bursho1, #bursho2, #chasho1, #chasho2, #chrsho1, #chrsho2, #colsho1, #colsho2, #gldsho1, #gldsho2, #hunsho1, #hunsho2, #kelsho1, #kelsho2, #lemsho1, #lemsho2, #limsho1, #limsho2, #navsho1, #navsho2,#orgsho1, #orgsho2, #redsho1, #roysho1, #roysho2, #silsho1, #silsho2, #tursho1, #tursho2{
-  position:absolute;
-  /* width:290px;
-  height:115px; */
-  z-index:1;
-  top: 30px;
-  visibility: hidden;
-}
-
-
-.navbar-custom + .module {
-    padding: 0px 0;
-}
-
-.module, .module-small {
-    padding: 0px 0;
-}
-
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-    /* margin-top: 30px; */
-}
-
-/* CIRCLE BUTTONS CSS */
-.circle{
-  width:40px;
-  height:40px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.circle:hover{
-  border-radius: 30%;
-}
-
-.swatches td{
-  padding:0;
-  border:none;
-}
-
-input, textarea{
-  width:100%;
-}
-
-input[type="submit"]{
-  width:50%;
-}
-
-
-
-.swatch{
-  background-color: #fff;
-  padding-bottom:50px;
-}
-
-.swatch h3{
-  margin:10px 0px 30px 0px;
-}
-
-.swatch h4{
-  margin:10px 0px 10px 0px;
-}
-
-.colors{
-  padding:50px;
-}
-
-.form h2{
-  color:#fff;
-  margin-top: 0;
-}
-
-#contactus input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select{
-  background-color:#eaeaea;
-  height: 40px;
-
-}
-
-.side-form{
-  text-align: center;
-  padding:30px;
-}
-
-.side-form h4, h2{
-  color:white;
-}
-
-.side-form span{
-  font-weight: bold;
-  color:#ba2c0f;
-  background: #eaeaea;
-  padding:10px 30px;
-  line-height: 7rem;
-}
-
-#footer-custom{
-  padding:50px 0;
-}
-
-#footer-custom h4{
-  margin: 10px 0;
-}
-
-.copyright{
-  color:#000;
-}
-
-/* STYLE UPDATE */
-
-</style>
 
 </head>
 <body>
@@ -324,19 +104,14 @@ input[type="submit"]{
 		</div>
  </header>
 	<!-- end header Area -->
-
-
-  <!-- PARALLAX TOP BANNER -->
-<section class="custom-header section-gap">
-<div class="container">
-
-      <div class="col-lg12 single-footer-widget mt-40">
-        <h1>SCORE<span style="font-size:25px;">®</span> Custom Uniform 2</h1>
-        <h3>The 2020 Custom Uniform Program features new design templates you can customize with your League’s colors. Our premium-quality uniforms offer a unique look and performance comfort on the field. </h3>
+  <div style="height:115px;background-color:var(--gray-light-color)"></div>
+  <div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER2.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
+      <div width="100%" height="auto" style="margin-top:50%;margin-bottom: 40%;opacity:0">
+        &nbsp
       </div>
-
-</div>
-</section>
+    </div>
+  </div>
   <!-- END TOP BANNER -->
 <div class="container">
   <div class="row swatch">

@@ -84,6 +84,7 @@ css
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="flipster.min.css">
+  <link rel="stylesheet" href="css/custom2.css">
 <script src="https://kit.fontawesome.com/a6517f657d.js" crossorigin="anonymous"></script>
 
     <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
@@ -310,17 +311,9 @@ input[type="submit"]{
 </div>
 </section>
   <!-- END TOP BANNER -->
-
-<style>
-  .ballImageSection img{
-    width:377px;
-    height:377px;
-  }
-</style>
 <div class="row swatch">
   <div class="col-sm-6">
     <div class="ballImageSection" align="center" style="margin:auto; height:350px; width:290px">
-
       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
       <script>
         $( document ).ready(function() {
@@ -332,7 +325,6 @@ input[type="submit"]{
           }
         });
       </script>
-      
       <div id="d1-ball"><img src="assets/Balls/DESIGN3/ball-color.png"/></div>
       <?php  
         $colors = array('blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
@@ -340,51 +332,46 @@ input[type="submit"]{
           echo "<div id='d1-".$color."1'><img id='".$color."ballimg1'/></div>";
           echo "<div id='d1-".$color."2'><img id='".$color."ballimg2'/></div>";
         }
-      ?>$
-
+      ?>
     </div>
 	</div>
-                    <!-- Uniform Created End -->
-
   <div class="col-sm-6 colors">
     <h3><b>Design your ball:</b></h3>
-
-    <h6>Primary color</h6>
-
-    <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk1','','show','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
-    <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','show','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
-    <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','show','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
-    <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','show','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'HUN'"></div>
-    <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','show','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'KEL'"></div>
-    <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LEM'"></div>
-    <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','show','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'LIM'"></div>
-    <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','show','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'NAV'"></div>
-    <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','show','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ORG'"></div>
-    <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','show','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'PUR'"></div>
-    <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','show','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'RED'"></div>
-    <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','show','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'ROY'"></div>
-    <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','show','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
-    <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','show','d1-wht1','','hide');document.getElementById('ballcolor1').value = 'TUR'"></div>
-    <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','show');document.getElementById('ballcolor1').value = 'WHT'"></div>
-
-
-    <h6>Secondary color</h6>
-
-    <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('d1-blk2','','show','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'BLK'"></div>
-    <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','show','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'COL'"></div>
-    <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','show','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'GLD'"></div>
-    <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','show','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'HUN'"></div>
-    <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','show','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'KEL'"></div>
-    <div class="circle" style="background-color:#e5ff36" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','show','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LEM'"></div>
-    <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','show','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'LIM'"></div>
-    <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','show','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'NAV'"></div>
-    <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','show','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ORG'"></div>
-    <div class="circle" style="background-color:#592C82" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','show','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'PUR'"></div>
-    <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','show','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'RED'"></div>
-    <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','show','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'ROY'"></div>
-    <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','show','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'CHR'"></div>
-    <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','show','d1-wht2','','hide');document.getElementById('ballcolor2').value = 'TUR'"></div>
-    <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','show');document.getElementById('ballcolor2').value = 'WHT'"></div>
+    <?php  
+      $colors = array('blk', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'chr', 'tur', 'wht');
+      $codigos = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
+      $designCant= array('1', '2');
+      $designLabel= array('Primary Color', 'Secondary Color');
+      $contd=0;
+      foreach($designCant as $d){
+        echo "<h6>".$designLabel[$contd]."</h6>";
+        $contd+=1;
+        $contf=0;
+        foreach($colors as $color2){
+          $contf+=1;
+          $cadena="MM_showHideLayers(";
+          $cont=0;
+          foreach($colors as $color){
+            $cont+=1;
+            $cadena.="'d1-".$color."".$d."','',";
+            if($cont==$contf){
+              $cadena.="'show'";
+            }else{
+              $cadena.="'hide'";
+            }
+            if($cont<sizeof($colors)){
+              $cadena.=",";
+            }
+          }
+          $cadena.=");document.getElementById('ballcolor".$d."').value = '".strtoupper($color2)."'";
+          $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigos[$contf-1].";";
+          if($color2=="wht"){
+            $style.='border: 1px solid #eaeaea';
+          }
+          echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
+        }
+      }
+    ?>
   </div>
 </div>
 
@@ -407,14 +394,9 @@ input[type="submit"]{
                         <li>4. Place your order.</li>
                       </ul>
                   </div>
-
                 </div>
               </div>
   </section>
-
-
-
-
 
   <div  id="con3" class="modal fade" tabindex="-1">
    	<div class="modal-dialog" style="background-color:#FFF">
@@ -434,7 +416,7 @@ input[type="submit"]{
    </div>
 
 
-          <div id="con1" class="modal fade" tabindex="-1">
+  <div id="con1" class="modal fade" tabindex="-1">
    	<div class="modal-dialog" style="background-color:#FFF">
    		<div class="modal-header">
    			<button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
@@ -466,13 +448,14 @@ input[type="submit"]{
 
 	<!-- /WRAPPER -->
 
+  
   <!--
-  ███████  ██████   ██████  ████████ ███████ ██████
-  ██      ██    ██ ██    ██    ██    ██      ██   ██
-  █████   ██    ██ ██    ██    ██    █████   ██████
-  ██      ██    ██ ██    ██    ██    ██      ██   ██
-  ██       ██████   ██████     ██    ███████ ██   ██
-  FOOTER
+  ███████  ██████   ██████   ██      ██
+  ██      ██    ██  ██   ██  ████  ████
+  █████   ██    ██  ██████   ██  ██  ██
+  ██      ██    ██  ██   ██  ██      ██
+  ██       ██████   ██   ██  ██      ██
+  FORM
   -->
   <footer class="footer-area section-gap" id="contact">
     <div class="container">
@@ -592,8 +575,14 @@ input[type="submit"]{
   </footer>
 
 
-
-  <!-- Start Footer Area -->
+  <!--
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  FOOTER
+  -->
   <footer class="footer-area section-gap" id="contact">
     <div class="container fullwidth">
       <div class="col-lg12 single-footer-widget">
@@ -660,24 +649,7 @@ input[type="submit"]{
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
-    <!-- <script src="assets/js/jquery.superslides.min.js"></script>
-    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.simple-text-rotator.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/packery-mode.pkgd.min.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.fitvids.js"></script>
-    <script src="assets/js/jquery.parallax-1.1.3.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="assets/js/gmaps.js"></script>-->
 
     </body>
     <script src="js/contact.js"></script>
-    <!-- <script src="js/custom.js"></script> -->
     </html>
