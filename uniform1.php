@@ -133,214 +133,65 @@ JAVASCRIPT FILES-->
   <div class="container">
     <div class="row swatch" style="padding-top: 10%;">
       <div class="col-lg-6">
-        <div align="center" style="margin:auto; height:850px; width:290px">
-          
-          <div id="blksho1"><img src="assets/Uniforms/P1D1/SHORT/design1-blk1.png" width="400" height="680" /></div>
-          <div id="bursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-bur1.png" width="400" height="680" /></div>
-          <div id="chrsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-chr1.png" width="400" height="680" /></div>
-          <div id="colsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-col1.png" width="400" height="680" /></div>
-          <div id="gldsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-gld1.png" width="400" height="680" /></div>
-          <div id="hunsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-hun1.png" width="400" height="680" /></div>
-          <div id="kelsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-kel1.png" width="400" height="680" /></div>
-          <div id="lemsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lem1.png" width="400" height="680" /></div>
-          <div id="limsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-lim1.png" width="400" height="680" /></div>
-          <div id="navsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-nav1.png" width="400" height="680" /></div>
-          <div id="orgsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-org1.png" width="400" height="680" /></div>
-          <div id="redsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-red1.png" width="400" height="680" /></div>
-          <div id="roysho1"><img src="assets/Uniforms/P1D1/SHORT/design1-roy1.png" width="400" height="680" /></div>
-          <div id="silsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-sil1.png" width="400" height="680" /></div>
-          <div id="tursho1"><img src="assets/Uniforms/P1D1/SHORT/design1-tur1.png" width="400" height="680" /></div>
-          <div id="whtsho1"><img src="assets/Uniforms/P1D1/SHORT/design1-wht1.png" width="400" height="680" /></div>
-
-          <div id="blksho2"><img src="assets/Uniforms/P1D1/SHORT/design1-blk2.png" width="400" height="680" /></div>
-          <div id="bursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-bur2.png" width="400" height="680" /></div>
-          <div id="chrsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-chr2.png" width="400" height="680" /></div>
-          <div id="colsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-col2.png" width="400" height="680" /></div>
-          <div id="gldsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-gld2.png" width="400" height="680" /></div>
-          <div id="hunsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-hun2.png" width="400" height="680" /></div>
-          <div id="kelsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-kel2.png" width="400" height="680" /></div>
-          <div id="lemsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lem2.png" width="400" height="680" /></div>
-          <div id="limsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-lim2.png" width="400" height="680" /></div>
-          <div id="navsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-nav2.png" width="400" height="680" /></div>
-          <div id="orgsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-org2.png" width="400" height="680" /></div>
-          <div id="redsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-red2.png" width="400" height="680" /></div>
-          <div id="roysho2"><img src="assets/Uniforms/P1D1/SHORT/design1-roy2.png" width="400" height="680" /></div>
-          <div id="silsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-sil2.png" width="400" height="680" /></div>
-          <div id="tursho2"><img src="assets/Uniforms/P1D1/SHORT/design1-tur2.png" width="400" height="680" /></div>
-          <div id="whtsho2"><img src="assets/Uniforms/P1D1/SHORT/design1-wht2.png" width="400" height="680" /></div>
-
-          <div id="blkbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk1.png" width="400" height="680" /></div>
-          <div id="burbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur1.png" width="400" height="680" /></div>
-          <div id="chrbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr1.png" width="400" height="680" /></div>
-          <div id="colbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-col1.png" width="400" height="680" /></div>
-          <div id="gldbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld1.png" width="400" height="680" /></div>
-          <div id="hunbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun1.png" width="400" height="680" /></div>
-          <div id="kelbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel1.png" width="400" height="680" /></div>
-          <div id="lembase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem1.png" width="400" height="680" /></div>
-          <div id="limbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim1.png" width="400" height="680" /></div>
-          <div id="navbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav1.png" width="400" height="680" /></div>
-          <div id="orgbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-org1.png" width="400" height="680" /></div>
-          <div id="redbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-red1.png" width="400" height="680" /></div>
-          <div id="roybase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy1.png" width="400" height="680" /></div>
-          <div id="silbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil1.png" width="400" height="680" /></div>
-          <div id="turbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur1.png" width="400" height="680" /></div>
-          <div id="whtbase1"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht1.png" width="400" height="680" /></div>
-
-          <div id="blkbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-blk2.png" width="400" height="680" /></div>
-          <div id="burbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-bur2.png" width="400" height="680" /></div>
-          <div id="chrbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-chr2.png" width="400" height="680" /></div>
-          <div id="colbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-col2.png" width="400" height="680" /></div>
-          <div id="gldbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-gld2.png" width="400" height="680" /></div>
-          <div id="hunbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-hun2.png" width="400" height="680" /></div>
-          <div id="kelbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-kel2.png" width="400" height="680" /></div>
-          <div id="lembase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lem2.png" width="400" height="680" /></div>
-          <div id="limbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-lim2.png" width="400" height="680" /></div>
-          <div id="navbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-nav2.png" width="400" height="680" /></div>
-          <div id="orgbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-org2.png" width="400" height="680" /></div>
-          <div id="redbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-red2.png" width="400" height="680" /></div>
-          <div id="roybase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-roy2.png" width="400" height="680" /></div>
-          <div id="silbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-sil2.png" width="400" height="680" /></div>
-          <div id="turbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-tur2.png" width="400" height="680" /></div>
-          <div id="whtbase2"><img src="assets/Uniforms/P1D1/JERSEY/design1-wht2.png" width="400" height="680" /></div>
-
-          <div id="blksock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-blk1.png" width="400" height="680" /></div>
-          <div id="bursock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-bur1.png" width="400" height="680" /></div>
-          <div id="chrsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-chr1.png" width="400" height="680" /></div>
-          <div id="colsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-col1.png" width="400" height="680" /></div>
-          <div id="gldsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-gld1.png" width="400" height="680" /></div>
-          <div id="hunsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-hun1.png" width="400" height="680" /></div>
-          <div id="navsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-nav1.png" width="400" height="680" /></div>
-          <div id="orgsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-org1.png" width="400" height="680" /></div>
-          <div id="redsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-red1.png" width="400" height="680" /></div>
-          <div id="roysock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-roy1.png" width="400" height="680" /></div>
-          <div id="whtsock1"><img src="assets/Uniforms/P1D1/SOCKS/design1-wht1.png" width="400" height="680" /></div>
-        </div>
-      </div>
-      <div class="col-lg-6 colors">
-        <h3>Pick your jersey colors:</h3>
-        <h5>Primary color</h5>
-
-        <div class="circle hvr-grow" style="background-color:#000000;" onclick="MM_showHideLayers('blkbase1','','show','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BLK'"></div>
-
-        <div class="circle hvr-grow" style="background-color:#6F263D" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','show','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'BUR'"></div>
-
-        <div class="circle hvr-grow" style="background-color:#3F4444" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','show','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'CHR'"></div>
-
-        <div class="circle hvr-grow" style="background-color:#92C1E9" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','show','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'COL'"></div>
-
-        <div class="circle hvr-grow" style="background-color:#FFB81C" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','show','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'GLD'"></div>
-
-        <div class="circle" style="background-color:#00594F" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','show','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'HUN'"></div>
-
-        <div class="circle" style="background-color:#009639" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','show','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'KEL'"></div>
-
-        <div class="circle" style="background-color:#C0DF16" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','show','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'LEM'"></div>
-
-        <div class="circle" style="background-color:#79C000" onclick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','show','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'LIM'"></div>
-
-        <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','show','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'NAV'"></div>
-
-        <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','show','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'ORG'"></div>
-
-        <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','show','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'RED'"></div>
-
-        <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','show','silbase1','','hide','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'ROY'"></div>
-
-        <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','show','turbase1','','hide','whtbase1','','hide');document.getElementById('ballcolor1').value = 'SIL'"></div>
-        
-        <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','show','whtbase1','','hide');document.getElementById('ballcolor1').value = 'TUR'"></div>
-
-        <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blkbase1','','hide','burbase1','','hide','chrbase1','','hide','colbase1','','hide','gldbase1','','hide','hunbase1','','hide','kelbase1','','hide','lembase1','','hide','limbase1','','hide','navbase1','','hide','orgbase1','','hide','redbase1','','hide','roybase1','','hide','silbase1','','hide','turbase1','','hide','whtbase1','','show');document.getElementById('ballcolor1').value = 'WHT'"></div>
-
-
-        <h5><br>Secondary color</h5>
-
-        <div class="circle" style="background-color:#000000" onClick="MM_showHideLayers('blkbase2','','show','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'BLK'"></div>
-
-        <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blkbase2','','hide','burbase2','','show','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'BUR'"></div>
-
-        <div class="circle" style="background-color:#3F4444" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','show','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'CHR'"></div>
-
-        <div class="circle" style="background-color:#92C1E9" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','show','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'COL'"></div>
-
-        <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','show','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'GLD'"></div>
-
-        <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','show','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'HUN'"></div>
-
-        <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','show','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'KEL'"></div>
-
-        <div class="circle" style="background-color:#C0DF16" onclick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','show','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'LEM'"></div>
-
-        <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','show','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'LIM'"></div>
-
-        <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','show','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'NAV'"></div>
-
-        <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','show','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'ORG'"></div>
-
-        <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','show','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'RED'"></div>
-
-        <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','show','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'ROY'"></div>
-
-        <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','show','tngbase2','','hide','turbase2','','hide','whtbase2','','hide');document.getElementById('ballcolor2').value = 'SIL'"></div>
-
-        <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','show','whtbase2','','hide');document.getElementById('ballcolor2').value = 'TUR'"></div>
-
-        <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blkbase2','','hide','burbase2','','hide','chrbase2','','hide','colbase2','','hide','gldbase2','','hide','hunbase2','','hide','kelbase2','','hide','lembase2','','hide','limbase2','','hide','navbase2','','hide','orgbase2','','hide','redbase2','','hide','roybase2','','hide','silbase2','','hide','tngbase2','','hide','turbase2','','hide','whtbase2','','show');document.getElementById('ballcolor2').value = 'WHT'"></div>
-
-                             
-        <h3><br>Now it's time to design your shorts:</h3>
-        <h5>Main color</h5>
-
-        <div class="circle" style="background-color:#000000" onclick="MM_showHideLayers('blksho1','','show','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'BLK'"></div>
-        <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','show','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'BUR'"></div>
-        <div class="circle" style="background-color:#3F4444" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','show','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'CHR'"></div>
-        <div class="circle" style="background-color:#92C1E9" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','show','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'COL'"></div>
-        <div class="circle" style="background-color:#FFB81C" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','show','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'GLD'"></div>
-        <div class="circle" style="background-color:#00594F" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','show','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'HUN'"></div>
-        <div class="circle" style="background-color:#009639" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','show','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'KEL'"></div>
-        <div class="circle" style="background-color:#C0DF16" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','show','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'LEM'"></div>
-        <div class="circle" style="background-color:#79C000" onclick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','show','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'LIM'"></div>
-        <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','show','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'NAV'"></div>
-        <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','show','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'ORG'"></div>
-        <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','show','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'RED'"></div>
-        <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','show','silsho1','','hide','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'ROY'"></div>
-        <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','show','tursho1','','hide','whtsho1','','hide');document.getElementById('shocolor1').value = 'SIL'"></div>
-        <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','show','whtsho1','','hide');document.getElementById('shocolor1').value = 'TUR'"></div>
-        <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blksho1','','hide','bursho1','','hide','chasho1','','hide','chrsho1','','hide','colsho1','','hide','gldsho1','','hide','hunsho1','','hide','kelsho1','','hide','lemsho1','','hide','limsho1','','hide','navsho1','','hide','orgsho1','','hide','redsho1','','hide','roysho1','','hide','silsho1','','hide','tursho1','','hide','whtsho1','','show');document.getElementById('shocolor1').value = 'WHT'"></div>
-
-        <h5><br>Accent color</h5>
-
-        <div class="circle" style="background-color:#000" onclick="MM_showHideLayers('blksho2','','show','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'BLK'"></div>
-        <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blksho2','','hide','bursho2','','show','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtbase2','','hide');document.getElementById('shocolor2').value = 'BUR'"></div>
-        <div class="circle" style="background-color:#3F4444" onclick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','show','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'CHR'"></div>
-        <div class="circle" style="background-color:#92C1E9" onclick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','show','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'COL'"></div>
-        <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','show','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'GLD'"></div>
-        <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','show','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'HUN'"></div>
-        <div class="circle" style="background-color:#009639" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','show','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'KEL'"></div>
-        <div class="circle" style="background-color:#C0DF16" onclick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','show','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'LEM'"></div>
-        <div class="circle" style="background-color:#79C000" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','show','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'LIM'"></div>
-        <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','show','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'NAV'"></div>
-        <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','show','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'ORG'"></div>
-        <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','show','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'RED'"></div>
-        <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','show','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'ROY'"></div>
-        <div class="circle" style="background-color:#A7A8AA" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','show','tngsho2','','hide','tursho2','','hide','whtsho2','','hide');document.getElementById('shocolor2').value = 'SIL'"></div>
-        <div class="circle" style="background-color:#00B5E2" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','show','whtsho2','','hide');document.getElementById('shocolor2').value = 'TUR'"></div>
-        <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blksho2','','hide','bursho2','','hide','chasho2','','hide','chrsho2','','hide','colsho2','','hide','gldsho2','','hide','hunsho2','','hide','kelsho2','','hide','lemsho2','','hide','limsho2','','hide','navsho2','','hide','orgsho2','','hide','redsho2','','hide','roysho2','','hide','silsho2','','hide','tngsho2','','hide','tursho2','','hide','whtsho2','','show');document.getElementById('shocolor2').value = 'WHT'"></div>
-
+        <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+          <?php  
+            $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
+            $colorsSocks = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
+            foreach($colors as $color){
+              echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P1D1/SHORT/design1-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."1.png'/></div>";
+            }
+            foreach($colors as $color){
+              echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P1D1/SHORT/design1-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."2.png'/></div>";
+            }
+            foreach($colorsSocks as $color){
+              echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D1/SOCKS/design1-".$color."1.png'/></div>";
+            }
+          echo="</div>";
+        echo="</div>";
+        echo=" <div class='col-lg-6 colors'>";
+          $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
+          $codigos = array('000000', '6F263D', '3F4444', '92C1E9', 'FFB81C', '00594F', '009639', 'C0DF16', '79C000', '00205B', 'FF6900', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
+          $designCant= array('1', '2');
+          $designLabel= array('<h5>Primary Color</h5>', '<h5><br>Secondary Color</h5>', '<h5>Main Color</h5>', '<h5><br>Accent Color</h5>');
+          $title= array('Pick your jersey colors:', '<br>Now it\'s time to design your shorts:');
+          $type=array('base','sho');
+          for ($h = 0; $h <sizeof($type); $h++) {
+            echo "<h3>".$title[$h]."</h3>";
+            for ($i = 0; $i <sizeof($designCant); $i++) {
+              echo "".$designLabel[$i+($h*2)]."";
+              for ($j = 0; $j <sizeof($colors); $j++) {
+                $cadena="MM_showHideLayers(";
+                for ($k = 0; $k <sizeof($colors); $k++) {
+                  if($k+1==$j+1) $cadena.="'".$colors[$k].$type[$h].$designCant[$i]."','','show'";
+                  else $cadena.="'".$colors[$k].$type[$h].$designCant[$i]."','','hide'";
+                  if($k+1<sizeof($colors)) $cadena.=",";
+                }
+                $cadena.=");document.getElementById('".$type[$h]."color".$designCant[$i]."').value = '".strtoupper($colors[$j])."'";
+                $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigos[$j].";";
+                if($colors[$j]=="wht") $style.='border: 1px solid #eaeaea';
+                echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
+              }
+            }
+          }
+        ?>
         <h3><br>Select color of socks:</h3>
-        <div class="circle" style="background-color:#000" onclick="MM_showHideLayers('blksock1','','show','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'BLK'"></div>
-        <div class="circle" style="background-color:#6F263D" onclick="MM_showHideLayers('blksock1','','hide','bursock1','','show','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'BUR'"></div>
-        <div class="circle" style="background-color:#3F4444" onclick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','show','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'CHR'"></div>
-        <div class="circle" style="background-color:#92C1E9" onclick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','show','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'COL'"></div>
-        <div class="circle" style="background-color:#FFB81C" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','show','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'GLD'"></div>
-        <div class="circle" style="background-color:#00594F" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','show','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'HUN'"></div>
-        <div class="circle" style="background-color:#00205B" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','show','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'NAV'"></div>
-        <div class="circle" style="background-color:#FF6900" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','show','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'ORG'"></div>
-        <div class="circle" style="background-color:#BA0C2F" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','show','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'RED'"></div>
-        <div class="circle" style="background-color:#001489" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','show','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','hide','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'ROY'"></div>
-        
-        <div class="circle" style="background-color:#fff;border: 1px solid #eaeaea" onClick="MM_showHideLayers('blksock1','','hide','bursock1','','hide','tgoldsock1','','hide','chrsock1','','hide','colsock1','','hide','gldsock1','','hide','hunsock1','','hide','kelsock1','','hide','tnavsock1','','hide','thunsock1','','hide','navsock1','','hide','orgsock1','','hide','redsock1','','hide','roysock1','','hide','silsock1','','hide','tredsock1','','hide','troysock1','','hide','whtsock1','','show','tbursock1','','hide','tblacksock1','','hide');document.getElementById('sockcolor1').value = 'WHT'"></div>
-
+        <?php
+          $colorsSocks = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
+          $codigosS = array('000000','6F263D','3F4444','92C1E9','FFB81C', '00594F', '00205B', 'FF6900', 'BA0C2F', '001489', 'fff');
+          
+          for ($j = 0; $j <sizeof($colorsSocks); $j++) {
+            $cadena="MM_showHideLayers(";
+            for ($k = 0; $k <sizeof($colorsSocks); $k++) {
+              if($k+1==$j+1) $cadena.="'".$colorsSocks[$k]."sock1','','show'";
+              else $cadena.="'".$colorsSocks[$k]."sock1','','hide'";
+              if($k+1<sizeof($colorsSocks)) $cadena.=","; 
+            }
+            $cadena.=");document.getElementById('sockcolor1').value = '".strtoupper($colorsSocks[$j])."'";
+            $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigosS[$j].";";
+            if($colorsSocks[$j]=="wht") $style.='border: 1px solid #eaeaea';
+            echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
+          }
+        ?>
       </div>
     </div>
   </div>
@@ -499,12 +350,12 @@ JAVASCRIPT FILES-->
           <div class="row">
             <div class="col-sm-6">
               <label for='email' ><font color="#6D6E71">Primary Jersey Color*:</font></label>
-              <input type='text' name='Priamary Color' id='ballcolor1' value='<?php echo $formproc->SafeDisplay('ballcolor1') ?>' maxlength="50" />
+              <input type='text' name='Priamary Color' id='basecolor1' value='<?php echo $formproc->SafeDisplay('ballcolor1') ?>' maxlength="50" />
               <span id='contactus_email_errorloc' class='error'></span>
             </div>
             <div class="col-sm-6">
               <label for='email' ><font color="#6D6E71">Secondary Jersey Color*:</font></label>
-              <input type='text' name='Secondary Color' id='ballcolor2' value='<?php echo $formproc->SafeDisplay('ballcolor2') ?>' maxlength="50" />
+              <input type='text' name='Secondary Color' id='basecolor2' value='<?php echo $formproc->SafeDisplay('ballcolor2') ?>' maxlength="50" />
               <span id='contactus_email_errorloc' class='error'></span>
             </div>
           </div>

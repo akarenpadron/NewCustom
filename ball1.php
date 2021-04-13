@@ -33,6 +33,7 @@ CSS FILES-->
 <link rel="stylesheet" href="css/color-swatches.css">
 <link rel="stylesheet" href="css/custom2.css">
 <link rel="shortcut icon" href="assets/fav.png">
+
 <!--
 ██████  ███████
     ██  ██ 
@@ -71,19 +72,9 @@ JAVASCRIPT FILES-->
   ga('create', 'UA-68804515-1', 'auto');
   ga('send', 'pageview');
 </script>
-<script>
-
-  $( document ).ready(function() {
-    var colors = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
-    colors.forEach(myFunction);
-    function myFunction(item) {
-      document.getElementById(item+"ballimg1").src="assets/Balls/DESIGN1/design1-"+item+"1.png";
-      document.getElementById(item+"ballimg2").src="assets/Balls/DESIGN1/design1-"+item+"2.png";
-    }
-  });
-</script>
+<!-- document ready-->
 <script src="js/vendor/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mI didgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
  crossorigin="anonymous"></script>
 <script src="js/tilt.jquery.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
@@ -120,7 +111,7 @@ JAVASCRIPT FILES-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
-	<header id="header" style="height:115px;">
+	<header id="header">
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
@@ -139,15 +130,25 @@ JAVASCRIPT FILES-->
 		</div>
   </header>
   <div style="height:115px;background-color:var(--gray-light-color)"></div>
-  <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER-PAGE3.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+  <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER1b.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
     <div class="col-lg-6 col-md-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
-      <div width="100%" height="auto" style="margin-top:60%;margin-bottom: 60%;opacity:0">
+      <div width="100%" height="auto" style="margin-top:50%;margin-bottom: 40%;opacity:0">
         &nbsp
       </div>
     </div>
   </div>
-  <div class="row swatch">
-    <div class="col-sm-6">
+  <script>
+  $( document ).ready(function() {
+    var colors = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
+    colors.forEach(myFunction);
+    function myFunction(item) {
+      document.getElementById(item+"ballimg1").src="assets/Balls/DESIGN1/design1-"+item+"1.png";
+      document.getElementById(item+"ballimg2").src="assets/Balls/DESIGN1/design1-"+item+"2.png";
+    }
+  });
+</script>
+  <div class="row swatch" style="padding-top: 10%;">
+    <div class="col-lg-6">
       <div class="ballImageSection" align="center" style="margin:auto; height:350px; width:290px">
         <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-color.png"/></div>
         <?php  
@@ -163,9 +164,9 @@ JAVASCRIPT FILES-->
         $colors = array('blk', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'chr', 'tur', 'wht');
         $codigos = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
         $designCant= array('1', '2');
-        $designLabel= array('Primary Color', 'Secondary Color');
+        $designLabel= array('Primary Color', '<br>Secondary Color');
         for ($i = 0; $i <sizeof($designCant); $i++) {
-          echo "<h6>".$designLabel[$i]."</h6>";
+          echo "<h5>".$designLabel[$i]."</h5>";
           for ($j = 0; $j <sizeof($colors); $j++) {
             $cadena="MM_showHideLayers(";
             for ($k = 0; $k <sizeof($colors); $k++) {
