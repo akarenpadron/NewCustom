@@ -146,9 +146,9 @@ JAVASCRIPT FILES-->
             foreach($colorsSocks as $color){
               echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D1/SOCKS/design1-".$color."1.png'/></div>";
             }
-          echo="</div>";
-        echo="</div>";
-        echo=" <div class='col-lg-6 colors'>";
+          echo "</div>";
+        echo "</div>";
+        echo "<div class='col-lg-6 colors'>";
           $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
           $codigos = array('000000', '6F263D', '3F4444', '92C1E9', 'FFB81C', '00594F', '009639', 'C0DF16', '79C000', '00205B', 'FF6900', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
           $designCant= array('1', '2');
