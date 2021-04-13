@@ -134,62 +134,57 @@ JAVASCRIPT FILES-->
     <div class="row swatch" style="padding-top: 10%;">
       <div class="col-lg-6">
         <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+          <style>
+            .circle{
+              margin:1.84px;margin-top:3px;margin-bottom:3px;
+            }
+          </style>
           <?php  
+            $design_number='1';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
-            $colorsSocks = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
-            foreach($colors as $color){
-              echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P1D1/SHORT/design1-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."1.png'/></div>";
-            }
-            foreach($colors as $color){
-              echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P1D1/SHORT/design1-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."2.png'/></div>";
-            }
-            foreach($colorsSocks as $color){
-              echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D1/SOCKS/design1-".$color."1.png'/></div>";
-            }
+            $codes = array('000000','6F263D','3F4444','92C1E9','FFB81C','00594F','009639','C0DF16','79C000','00205B','FF6900','BA0C2F','001489','A7A8AA','00B5E2','fff');
+            $s_colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
+            $s_codes = array('000000','6F263D','3F4444','92C1E9','FFB81C', '00594F', '00205B', 'FF6900', 'BA0C2F', '001489', 'fff');
+            $colors_per_item= array('1', '2');
+            $item_titles= array("Pick your jersey colors:", "<br>Now it's time to design your shorts:");
+            $item_types=array('base','sho');
+            $design_labels= array('Primary Color', '<br>Secondary Color', 'Main Color', '<br>Accent Color');
+            foreach($colors as $color) echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P1D1/SHORT/design".$design_number."-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."1.png'/></div>";
+            foreach($colors as $color) echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P1D1/SHORT/design".$design_number."-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."2.png'/></div>";
+            foreach($s_colors as $color) echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D1/SOCKS/design".$design_number."-".$color."1.png'/></div>";
           echo "</div>";
         echo "</div>";
         echo "<div class='col-lg-6 colors'>";
-          $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
-          $codigos = array('000000', '6F263D', '3F4444', '92C1E9', 'FFB81C', '00594F', '009639', 'C0DF16', '79C000', '00205B', 'FF6900', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
-          $designCant= array('1', '2');
-          $designLabel= array('<h5>Primary Color</h5>', '<h5><br>Secondary Color</h5>', '<h5>Main Color</h5>', '<h5><br>Accent Color</h5>');
-          $title= array('Pick your jersey colors:', '<br>Now it\'s time to design your shorts:');
-          $type=array('base','sho');
-          for ($h = 0; $h <sizeof($type); $h++) {
-            echo "<h3>".$title[$h]."</h3>";
-            for ($i = 0; $i <sizeof($designCant); $i++) {
-              echo "".$designLabel[$i+($h*2)]."";
+          for ($h = 0; $h <sizeof($item_types); $h++) {
+            echo "<h1>".$item_titles[$h]."</h1>";
+            for ($i = 0; $i <sizeof($colors_per_item); $i++) {
+              echo "<h5>".$design_labels[$i+($h*2)]."</h5>";
               for ($j = 0; $j <sizeof($colors); $j++) {
-                $cadena="MM_showHideLayers(";
+                $onEventActionString="MM_showHideLayers(";
                 for ($k = 0; $k <sizeof($colors); $k++) {
-                  if($k+1==$j+1) $cadena.="'".$colors[$k].$type[$h].$designCant[$i]."','','show'";
-                  else $cadena.="'".$colors[$k].$type[$h].$designCant[$i]."','','hide'";
-                  if($k+1<sizeof($colors)) $cadena.=",";
+                  if($k==$j) $onEventActionString.="'".$colors[$k].$item_types[$h].$colors_per_item[$i]."','','show'";
+                  else $onEventActionString.="'".$colors[$k].$item_types[$h].$colors_per_item[$i]."','','hide'";
+                  if($k+1<sizeof($colors)) $onEventActionString.=",";
                 }
-                $cadena.=");document.getElementById('".$type[$h]."color".$designCant[$i]."').value = '".strtoupper($colors[$j])."'";
-                $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigos[$j].";";
+                $onEventActionString.=");document.getElementById('".$item_types[$h]."color".$colors_per_item[$i]."').value = '".strtoupper($colors[$j])."'";
+                $style="background-color: #".$codes[$j].";";
                 if($colors[$j]=="wht") $style.='border: 1px solid #eaeaea';
-                echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
+                echo "<div class='circle' style='{$style}' onClick=\"{$onEventActionString}\"></div>";
               }
             }
           }
-        ?>
-        <h3><br>Select color of socks:</h3>
-        <?php
-          $colorsSocks = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
-          $codigosS = array('000000','6F263D','3F4444','92C1E9','FFB81C', '00594F', '00205B', 'FF6900', 'BA0C2F', '001489', 'fff');
-          
-          for ($j = 0; $j <sizeof($colorsSocks); $j++) {
-            $cadena="MM_showHideLayers(";
-            for ($k = 0; $k <sizeof($colorsSocks); $k++) {
-              if($k+1==$j+1) $cadena.="'".$colorsSocks[$k]."sock1','','show'";
-              else $cadena.="'".$colorsSocks[$k]."sock1','','hide'";
-              if($k+1<sizeof($colorsSocks)) $cadena.=","; 
+          echo "<h1><br>Select color of socks:</h1>";
+          for ($j = 0; $j <sizeof($s_colors); $j++) {
+            $onEventActionString="MM_showHideLayers(";
+            for ($k = 0; $k <sizeof($s_colors); $k++) {
+              if($k==$j) $onEventActionString.="'".$s_colors[$k]."sock1','','show'";
+              else $onEventActionString.="'".$s_colors[$k]."sock1','','hide'";
+              if($k+1<sizeof($s_colors)) $onEventActionString.=","; 
             }
-            $cadena.=");document.getElementById('sockcolor1').value = '".strtoupper($colorsSocks[$j])."'";
-            $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigosS[$j].";";
-            if($colorsSocks[$j]=="wht") $style.='border: 1px solid #eaeaea';
-            echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
+            $onEventActionString.=");document.getElementById('sockcolor1').value = '".strtoupper($s_colors[$j])."'";
+            $style="background-color: #".$s_codes[$j].";";
+            if($s_colors[$j]=="wht") $style.='border: 1px solid #eaeaea';
+            echo "<div class='circle' style='{$style}' onClick=\"{$onEventActionString}\"></div>";
           }
         ?>
       </div>

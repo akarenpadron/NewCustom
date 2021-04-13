@@ -130,7 +130,7 @@ JAVASCRIPT FILES-->
 		</div>
   </header>
   <div style="height:115px;background-color:var(--gray-light-color)"></div>
-  <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER1b.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+  <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
     <div class="col-lg-6 col-md-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
       <div width="100%" height="auto" style="margin-top:50%;margin-bottom: 40%;opacity:0">
         &nbsp
@@ -160,7 +160,7 @@ JAVASCRIPT FILES-->
           echo "</div>";
         echo "</div>";
         echo "<div class='col-sm-6 colors'>";
-        echo "<h3><b>Design your ball:</b></h3>";
+        echo "<h1>Design your ball:</h1>";
         $colors = array('blk', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'chr', 'tur', 'wht');
         $codigos = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
         $designCant= array('1', '2');
