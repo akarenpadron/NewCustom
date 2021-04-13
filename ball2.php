@@ -496,7 +496,7 @@ input[type="submit"]{
             <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
             <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
 
-            <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design2" value="Design 1" type="hidden" /></h2>
+            <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design2" value="Design 2" type="hidden" /></h2>
             </div>
             <div class="col-lg12 single-footer-widget">
               <h2>Submit Your Custom Ball Request Here:</h2>

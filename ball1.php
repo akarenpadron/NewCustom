@@ -137,54 +137,40 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
-  <script>
-  $( document ).ready(function() {
-    var colors = ['blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht'];
-    colors.forEach(myFunction);
-    function myFunction(item) {
-      document.getElementById(item+"ballimg1").src="assets/Balls/DESIGN1/design1-"+item+"1.png";
-      document.getElementById(item+"ballimg2").src="assets/Balls/DESIGN1/design1-"+item+"2.png";
-    }
-  });
-</script>
   <div class="row swatch" style="padding-top: 10%;">
-    <div class="col-lg-6">
-      <div class="ballImageSection" align="center" style="margin:auto; height:350px; width:290px">
-        <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-color.png"/></div>
-        <?php  
-          $colors = array('blk', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
-          foreach($colors as $color){
-            echo "<div id='d1-".$color."1'><img id='".$color."ballimg1'/></div>";
-            echo "<div id='d1-".$color."2'><img id='".$color."ballimg2'/></div>";
-          }
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" style='margin:auto' >
+      <div class='col-sm-8 col-md-8 col-lg-6 col-xl-4' style='margin:auto' >
+        <div class="ballImageSection" align="center" style="margin:auto; height:450px; width:377px">
+          <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-color.png"/></div>
+          <?php  
+            $design_number=1;
+            $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
+            $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
+            foreach($colors as $color) echo "<div id='d1-".$color."1'><img id='".$color."ballimg1' src='assets/BALLS/DESIGN".$design_number."/design".$design_number."-".$color."1.png'/></div> <div id='d1-".$color."2'><img id='".$color."ballimg2' src='assets/BALLS/DESIGN".$design_number."/design".$design_number."-".$color."2.png'/></div>";
           echo "</div>";
         echo "</div>";
-        echo "<div class='col-sm-6 colors'>";
+      echo "</div>";
+      echo "<div class='col-sm-12 col-md-12 col-lg-6 col-xl-6 ballImageSection' align='center' style='margin:auto' >";
+      echo "<div class='col-sm-8 col-md-8 col-lg-12 col-xl-10 colors' align='left' style='margin:auto' >";
         echo "<h1>Design your ball:</h1>";
-        $colors = array('blk', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'chr', 'tur', 'wht');
-        $codigos = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
         $designCant= array('1', '2');
-        $designLabel= array('Primary Color', '<br>Secondary Color');
+        $designLabel= array('<br>Primary Color', '<br>Secondary Color');
         for ($i = 0; $i <sizeof($designCant); $i++) {
           echo "<h5>".$designLabel[$i]."</h5>";
           for ($j = 0; $j <sizeof($colors); $j++) {
             $cadena="MM_showHideLayers(";
             for ($k = 0; $k <sizeof($colors); $k++) {
-              if($k+1==$j+1){
-                $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','show'";
-              }else{
-                $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','hide'";
-              }
-              if($k+1<sizeof($colors)){
-                $cadena.=",";
-              }
+              if($k+1==$j+1) $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','show'";
+              else $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','hide'";
+              if($k+1<sizeof($colors)) $cadena.=",";
             }
             $cadena.=");document.getElementById('ballcolor".$designCant[$i]."').value = '".strtoupper($colors[$j])."'";
-            $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codigos[$j].";";
+            $style="margin:1.84px;margin-top:3px;margin-bottom:3px;background-color: #".$codes[$j].";";
             if($colors[$j]=="wht") $style.='border: 1px solid #eaeaea';
             echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
           }
         }
+      echo "</div>";
       ?>
     </div>
   </div>

@@ -219,27 +219,27 @@ JAVASCRIPT FILES-->
       </div>
       <div class="modal-body">
         <ul>
-          <li>Premier Kit Includes</li>
+          <li style="color:black"><b style="color:black">Premier Kit Includes</b></li>
           <ul style="list-style: circle outside;">
-            <br><li>2 Jerseys</li>
+            <li>2 Jerseys</li>
             <li>2 Pairs of Shorts</li>
             <li>2 Pairs of Socks</li><br>
           </ul>
-          <li>Elite Kit Includes</li>
+          <li style="color:black"><b style="color:black">Elite Kit Includes</b></li>
           <ul style="list-style: circle outside;">
-            <br><li>2 Jerseys</li>
+            <li>2 Jerseys</li>
             <li>1 Pair of Shorts</li>
             <li>2 Pairs of Socks</li><br>
           </ul>
-          <li>Travel Kit Includes</li>
+          <li style="color:black"><b style="color:black">Travel Kit Includes</b></li>
           <ul style="list-style: circle outside;">
-            <br><li>2 Jerseys</li>
+            <li>2 Jerseys</li>
             <li>1 Pairs of Shorts</li>
             <li>1 Pairs of Socks</li><br>
           </ul>
-          <li>SCORE Kit Includes</li>
+          <li style="color:black"><b style="color:black">SCORE Kit Includes</b></li>
           <ul style="list-style: circle outside;">
-            <br><li>1 Jersey</li>
+            <li>1 Jersey</li>
             <li>1 Pair of Shorts</li>
             <li>1 Pairs of Socks</li><br>
           </ul>
