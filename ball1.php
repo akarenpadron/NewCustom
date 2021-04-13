@@ -120,7 +120,7 @@ JAVASCRIPT FILES-->
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a href="index.html">HOME</a></li>
-						<li class="menu-active"><a href="ball1.php">DESIGN 1</a></li>
+						<li class="menu-active" style="background-color: rgba(255,255,255,0.05)"><a href="ball1.php">DESIGN 1</a></li>
 						<li><a href="ball2.php">DESIGN 2</a></li>
 						<li><a href="ball3.php">DESIGN 3</a></li>
 						<li><a href="#contact">CONTACT US</a></li>
@@ -243,7 +243,7 @@ JAVASCRIPT FILES-->
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
           <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
           <div>
-            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden"/></h2>
+            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design" value="Design 1" type="hidden"/></h2>
           </div>
           <div class="col-lg12 single-footer-widget">
             <h2>Complete the form below to start your custom ball order:</h2>
