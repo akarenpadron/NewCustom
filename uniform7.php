@@ -7,6 +7,7 @@
   //$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com');
   $formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
   $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+  $formproc->SetFormType('Uniform');
   $formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
   if(isset($_POST['submitted'])){
      if($formproc->ProcessForm()){

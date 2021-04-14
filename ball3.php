@@ -7,6 +7,7 @@
   $formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); 
   //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
   $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+  $formproc->SetFormType('Uniform');
   $formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
   if(isset($_POST['submitted'])){
    if($formproc->ProcessForm()){
@@ -161,7 +162,7 @@ JAVASCRIPT FILES-->
         $designCant= array('1', '2');
         $designLabel= array('<br>Primary Color', '<br>Secondary Color');
         for ($i = 0; $i <sizeof($designCant); $i++) {
-          echo "<h5>".$designLabel[$i]."</h5>";
+          echo "<h5>".$designLabel[$4i]."</h5>";
           for ($j = 0; $j <sizeof($colors); $j++) {
             $cadena="MM_showHideLayers(";
             for ($k = 0; $k <sizeof($colors); $k++) {

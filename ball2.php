@@ -7,6 +7,7 @@
   $formproc->AddRecipient('diseno15@mesquitamaquiladora.com'); 
   //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
   $formproc->SetFormRandomKey('HG9hPBpn9Bn26yg');
+  $formproc->SetFormType('Uniform');
   $formproc->AddFileUploadField('photo','jpg,jpeg,gif,png,bmp',2024);
   if(isset($_POST['submitted'])){
    if($formproc->ProcessForm()){
