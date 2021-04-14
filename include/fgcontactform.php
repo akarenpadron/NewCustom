@@ -306,7 +306,8 @@ class FGContactForm
         $formsubmission = $this->FormSubmissionToMail();
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
-        $message = $header."Submission from 'Custom ".$this->form_type." 2021' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
+        $message = $header."Submission from 'Custom ".$this->form_type." 2021' form:<p>$formsubmission</p>
+        <img src='img/logo-ss.png' style=2 title="" /><hr/>$extra_info".$footer;
 
         return $message;
     }
