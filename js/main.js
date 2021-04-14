@@ -63,9 +63,9 @@ $(document).ready(function () {
             'class': '',
             'id': ''
         });
-        $('body').append($mobile_nav);
-        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
-        $('body').append('<div id="mobile-body-overly"></div>');
+        $('header').append($mobile_nav);
+        $('header').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
+        $('header').append('<div id="mobile-body-overly"></div>');
         $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
 
         $(document).on('click', '.menu-has-children i', function (e) {

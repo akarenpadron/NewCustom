@@ -33,7 +33,8 @@ CSS FILES-->
 <link rel="stylesheet" href="flipster.min.css">
 <link rel="stylesheet" href="css/color-swatches.css">
 <link rel="stylesheet" href="css/custom2.css">
-<link rel="shortcut icon" href="assets/fav.png">
+<link rel="shortcut icon" href="assets/logoW.ico">
+<link rel="icon" href="assets/logoW.ico">
 
 <!--
 ██████  ███████

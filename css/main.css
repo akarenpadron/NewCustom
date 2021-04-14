@@ -1875,6 +1875,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 0px;
 }
 
+
 @media (max-width: 673px) {
   #logo {
     margin-left: 20px; } }
@@ -2003,14 +2004,19 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed; /*change fixed to make it "sticky*/
   right: 27px;
   z-index: 999;
-  top: 22px;
+  top: 30px;
   border: 0;
   background: none;
-  font-size: 40px;
+  font-size: 50px;
   display: block;
   transition: all 0.4s;
   outline: none;
   cursor: pointer; }
+
+  .header-scrolled #mobile-nav-toggle {
+    font-size:30px;
+    top: 18px;
+  }
   @media (max-width: 767px) {
     #mobile-nav-toggle {
       top: 22px; } }

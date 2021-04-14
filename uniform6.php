@@ -34,6 +34,8 @@ CSS FILES-->
 <link rel="stylesheet" href="css/color-swatches.css">
 <link rel="stylesheet" href="css/custom2.css">
 <link rel="stylesheet" href="flipster.min.css">
+<link rel="shortcut icon" href="assets/logoW.ico">
+<link rel="icon" href="assets/logoW.ico">
 <!--
 ██████ ███████
     ██ ██ 
@@ -96,7 +98,7 @@ JAVASCRIPT FILES-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SCORE Custom Uniform 1</title>
+  <title>SCORE Custom Uniform 6</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>

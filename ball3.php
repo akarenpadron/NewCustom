@@ -33,7 +33,8 @@ CSS FILES-->
 <link rel="stylesheet" href="flipster.min.css">
 <link rel="stylesheet" href="css/color-swatches.css">
 <link rel="stylesheet" href="css/custom2.css">
-<link rel="shortcut icon" href="assets/fav.png">
+<link rel="shortcut icon" href="assets/logoW.ico">
+<link rel="icon" href="assets/logoW.ico">
 
 <!--
 ██████  ███████
@@ -108,7 +109,7 @@ JAVASCRIPT FILES-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SCORE Custom Ball 1</title>
+  <title>SCORE Custom Ball 3</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
@@ -162,7 +163,7 @@ JAVASCRIPT FILES-->
         $designCant= array('1', '2');
         $designLabel= array('<br>Primary Color', '<br>Secondary Color');
         for ($i = 0; $i <sizeof($designCant); $i++) {
-          echo "<h5>".$designLabel[$4i]."</h5>";
+          echo "<h5>".$designLabel[$i]."</h5>";
           for ($j = 0; $j <sizeof($colors); $j++) {
             $cadena="MM_showHideLayers(";
             for ($k = 0; $k <sizeof($colors); $k++) {
