@@ -43,6 +43,10 @@ class FGContactForm
     var $captcha_handler;
     var $form_type;
 
+    $tmpName = $_FILES['photo']['tmp_name']; 
+    $fileType = $_FILES['photo']['type']; 
+    $fileName = $_FILES['photo']['name']; 
+
     var $mailer;
 
     function FGContactForm()
@@ -306,7 +310,40 @@ class FGContactForm
         $formsubmission = $this->FormSubmissionToMail();
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
-        $message = $header."Submission from 'Custom ".$this->form_type." 2021' form:<p>$formsubmission</p>
+
+        $file = fopen($tmpName,'rb'); 
+          $data = fread($file,filesize($tmpName)); 
+          fclose($file); 
+
+          /* a boundary string */
+          $randomVal = md5(time()); 
+          $mimeBoundary = "==Multipart_Boundary_x{$randomVal}x"; 
+
+          /* Header for File Attachment */
+          $headers .= "\nMIME-Version: 1.0\n"; 
+          $headers .= "Content-Type: multipart/mixed;\n" ;
+          $headers .= " boundary=\"{$mimeBoundary}\""; 
+
+          /* Multipart Boundary above message */
+          $message = "This is a multi-part message in MIME format.\n\n" . 
+          "--{$mimeBoundary}\n" . 
+          "Content-Type: text/plain; charset=\"iso-8859-1\"\n" . 
+          "Content-Transfer-Encoding: 7bit\n\n" . 
+          $message . "\n\n"; 
+
+          /* Encoding file data */
+          $data = chunk_split(base64_encode($data)); 
+
+          /* Adding attchment-file to message*/
+          $message .= "--{$mimeBoundary}\n" . 
+          "Content-Type: {$fileType};\n" . 
+          " name=\"{$fileName}\"\n" . 
+          "Content-Transfer-Encoding: base64\n\n" . 
+          $data . "\n\n" . 
+          "--{$mimeBoundary}--\n"; 
+
+
+        $message .= $headers."Submission from 'Custom ".$this->form_type." 2021' form:<p>$formsubmission</p>
         <img src='img/logo-ss.png' style=2 title="" /><hr/>$extra_info".$footer;
 
         return $message;
@@ -316,7 +353,7 @@ class FGContactForm
     {
         foreach($this->fileupload_fields as $upld_field)
         {
-            $field_name = $upld_field["name"];
+            $field_name = $upld_field["name"]; 
             if(!$this->IsFileUploaded($field_name))
             {
                 continue;
