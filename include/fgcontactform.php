@@ -41,6 +41,7 @@ class FGContactForm
     var $arr_conditional_receipients;
     var $fileupload_fields;
     var $captcha_handler;
+    var $form_type;
 
     var $mailer;
 
@@ -66,6 +67,10 @@ class FGContactForm
     function AddRecipient($email,$name="")
     {
         $this->mailer->AddAddress($email,$name);
+    }
+    function SetFormType($type)
+    {
+        $this->form_type = $type;
     }
 
     function SetFromAddress($from)
@@ -173,7 +178,7 @@ class FGContactForm
 
         $this->mailer->CharSet = 'utf-8';
 
-        $this->mailer->Subject = "2020 Custom Request Form from $this->name";
+        $this->mailer->Subject = "2021 Custom $this->form_type Request Form from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
 
@@ -301,8 +306,7 @@ class FGContactForm
         $formsubmission = $this->FormSubmissionToMail();
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
-
-        $message = $header."Submission from 'Custom Ball 2019' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
+        $message = $header."Submission from 'Custom ".$this->form_type." 2021' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
 
         return $message;
     }
