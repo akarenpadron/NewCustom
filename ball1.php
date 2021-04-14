@@ -244,7 +244,7 @@ JAVASCRIPT FILES-->
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
           <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
           <div>
-            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design" value="Design 1" type="hidden"/></h2>
+            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden"/></h2>
           </div>
           <div class="col-lg12 single-footer-widget">
             <h2>Complete the form below to start your custom ball order:</h2>

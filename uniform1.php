@@ -308,7 +308,7 @@ JAVASCRIPT FILES-->
           <input type='hidden' name='submitted' id='submitted' value='1'/>
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
           <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
-          <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Pattern 1 - Design 1" type="hidden" /></h2>
+          <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
           </div>
           <div id="order" class='short_explanation'>
             <h2>Complete the form below to start your custom uniform order:</h2>
