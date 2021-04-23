@@ -143,7 +143,7 @@ JAVASCRIPT FILES-->
             }
           </style>
           <?php  
-            $design_number='1';
+            $design_number='2';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
             $codes = array('000000','6F263D','3F4444','92C1E9','FFB81C','00594F','009639','C0DF16','79C000','00205B','FF6900','BA0C2F','001489','A7A8AA','00B5E2','fff');
             $s_colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
@@ -152,9 +152,10 @@ JAVASCRIPT FILES-->
             $item_titles= array("Pick your jersey colors:", "<br>Now it's time to design your shorts:");
             $item_types=array('base','sho');
             $design_labels= array('Primary Color', '<br>Secondary Color', 'Main Color', '<br>Accent Color');
-            foreach($colors as $color) echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P1D1/SHORT/design".$design_number."-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."1.png'/></div>";
-            foreach($colors as $color) echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P1D1/SHORT/design".$design_number."-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P1D1/JERSEY/design1-".$color."2.png'/></div>";
-            foreach($s_colors as $color) echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D1/SOCKS/design".$design_number."-".$color."1.png'/></div>";
+            foreach($colors as $color) echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P1D2/SHORT/design".$design_number."-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P1D2/JERSEY/design".$design_number."-".$color."1.png'/></div>";
+            foreach($colors as $color) echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P1D2/SHORT/design".$design_number."-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P1D2/JERSEY/design".$design_number."-".$color."2.png'/></div>";
+            foreach($s_colors as $color) echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P1D2/SOCKS/design".$design_number."-".$color."1.png'/></div>";
+
           echo "</div>";
         echo "</div>";
         echo "<div class='col-lg-6 colors'>";
@@ -313,11 +314,7 @@ JAVASCRIPT FILES-->
           <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
           </div>
           <div id="order" class='short_explanation'>
-            <h2>Complete the form below to start your custom uniform order:</h2>
-            <ul>
-              Add all the fields<br>
-              Add the “Submit” button
-            </ul>
+            <h2>Complete the form below to begin your custom uniform order process.</h2>
             <br><p>*Required fields</p>
           </div>
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>

@@ -74,6 +74,46 @@
     transition: all .4s ease-out 0s;
     overflow: hidden;
 }
+/*[class*="col-lg"] {
+    background-clip: padding-box;
+    border: 10px solid red;
+}*/ 
+@media (min-width: 0px) and (max-width: 767px){
+  .pelotalabel{
+    margin-bottom:20px;
+  }
+  .balltitle{
+    margin-top:0px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .pelotalabel{
+    margin-bottom:20px;
+  }
+  .balltitle{
+    margin-top:0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .pelotalabel{
+    margin-bottom:20px;
+  }
+  .balltitle{
+    margin-top:0px;
+  }
+}
+@media (min-width: 1200px){
+  .pelotalabel{
+    margin-top:60px;
+    margin-bottom:85px;
+  }
+  .balltitle{
+    margin-top:30px;
+  }
+
+}
+
 .pelota{
     transform:scale(.9);
     @include transition(.4s);

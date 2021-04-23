@@ -313,11 +313,7 @@ JAVASCRIPT FILES-->
           <div><h2 align="center" style="margin-top:-10px"><input name="Design" id="design3" value="Design 3" type="hidden" /></h2>
           </div>
           <div id="order" class='short_explanation'>
-            <h2>Complete the form below to start your custom uniform order:</h2>
-            <ul>
-              Add all the fields<br>
-              Add the “Submit” button
-            </ul>
+            <h2>Complete the form below to begin your custom uniform order process.</h2>
             <br><p>*Required fields</p>
           </div>
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>

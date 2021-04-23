@@ -203,9 +203,9 @@ JAVASCRIPT FILES-->
         <h3>Order Time Frames</h3>
       </div>
       <div class="modal-body">
-        <div><center><img src="img/chart2.png" alt=""></center></div>
+        <div><center><img src="img/calendar1.png" width="100%" alt=""></center></div>
         <br>
-        <div><center><img src="img/chart1.png" alt=""></center></div>
+        <div><center><img src="img/calendar2.png" width="100%"alt=""></center></div>
       </div>
       <div class="modal-footer">
         <button class="genric-btn primary radius" data-dismiss="modal">Close</button>
@@ -225,7 +225,7 @@ JAVASCRIPT FILES-->
         	<li>Ball design available in maximum of 3 colors (1 ball base color & 2 design colors).</li>
           <li>Delivery is approximately 120 days after order has been finalized and sample artwork has been approved.</li>
           <li>Logo placement is available up to 6 locations.</li>
-          <li>&In our experience, most orders arrive on time.  However, delivery dates may vary due to manufacturer performance or any other delays caused by sea transportation (shipping), US custom or any Act of God. </li>
+          <li>In our experience, most orders arrive on time.  However, delivery dates may vary due to manufacturer performance or any other delays caused by sea transportation (shipping), US custom or any Act of God. </li>
       	  <li>Rush delivery (air freight) is available for an additional charge per ball.</li>
           <li>All orders are final.  Once an order has been placed, it cannot be changed or cancelled. </li>
           <li>A 50% deposit is required at time of order placement and remaining balance will be due at time of shipment.</li>
@@ -248,12 +248,8 @@ JAVASCRIPT FILES-->
             <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden"/></h2>
           </div>
           <div class="col-lg12 single-footer-widget">
-            <h2>Complete the form below to start your custom ball order:</h2>
-            <ul>
-              Add all the fields<br>Add the “Submit” button
-            </ul>
-            <br>
-            <p>*Required fields</p>
+            <h2>Complete the form below to begin your custom uniform order process.</h2>
+            <br><p>*Required fields</p>
           </div>
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
           <div class="row">
