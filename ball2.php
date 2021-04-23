@@ -32,7 +32,9 @@
       background-color: rgba(255,255,255,0.05);
     }
   </style>
+
   <script>
+    /* design2 roy and gld default color */
     $( document ).ready(function() {
       MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','show','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');
       document.getElementById('ballcolor1').value = 'ROY';
@@ -58,8 +60,8 @@
           <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-texture.png"/></div>
           <?php  
             $design_number=2;
-            $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
-            $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
+            $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur');
+            $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2');
             foreach($colors as $color) echo "<div id='d1-".$color."1'><img id='".$color."ballimg1' src='assets/Balls/DESIGN".$design_number."/design".$design_number."-".$color."1.png'/></div>";
             foreach($colors as $color) echo "<div id='d1-".$color."2'><img id='".$color."ballimg2' src='assets/Balls/DESIGN".$design_number."/design".$design_number."-".$color."2.png'/></div>";
           ?>
