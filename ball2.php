@@ -149,10 +149,10 @@ JAVASCRIPT FILES-->
             $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
             $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2', 'fff');
             foreach($colors as $color){ 
-              echo "<div id='d1-".$color."1'><img id='".$color."ballimg1' src='assets/BALLS/DESIGN".$design_number."/design".$design_number."-".$color."1.png'/></div>";
+              echo "<div id='d1-".$color."1'><img id='".$color."ballimg1' src='assets/Balls/DESIGN".$design_number."/design".$design_number."-".$color."1.png'/></div>";
             }
             foreach($colors as $color){ 
-              echo "<div id='d1-".$color."2'><img id='".$color."ballimg2' src='assets/BALLS/DESIGN".$design_number."/design".$design_number."-".$color."2.png'/></div>";
+              echo "<div id='d1-".$color."2'><img id='".$color."ballimg2' src='assets/Balls/DESIGN".$design_number."/design".$design_number."-".$color."2.png'/></div>";
             }
           echo "</div>";
         echo "</div>";
