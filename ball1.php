@@ -117,7 +117,7 @@ JAVASCRIPT FILES-->
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo-ss.png" alt="" title="" /></a>
+					<a href="index.html"><img src="img/banner-logo.png" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -139,11 +139,24 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
+  
+  <script>
+    /* design1 lem and tur default color */
+    $( document ).ready(function() {
+      MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');
+      document.getElementById('ballcolor1').value = 'LEM';
+
+      MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','show','d1-wht2','','hide');
+      document.getElementById('ballcolor2').value = 'TUR';
+
+    });
+  </script>
+
   <div class="row swatch" style="padding-top: 10%;">
     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" style='margin:auto' >
       <div class='col-sm-8 col-md-8 col-lg-6 col-xl-4' style='margin:auto' >
         <div class="ballImageSection" align="center" style="margin:auto; height:450px; width:377px">
-          <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-color.png"/></div>
+          <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-texture.png"/></div>
           <?php  
             $design_number=1;
             $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur', 'wht');
@@ -221,7 +234,7 @@ JAVASCRIPT FILES-->
       <div class="modal-body">
         <h5>Terms</h5>
       	<ul>
-          <br><li>100 ball minimum required for custom ballorders.</li>
+          <br><li>100 ball minimum required for custom ball orders.</li>
         	<li>Ball design available in maximum of 3 colors (1 ball base color & 2 design colors).</li>
           <li>Delivery is approximately 120 days after order has been finalized and sample artwork has been approved.</li>
           <li>Logo placement is available up to 6 locations.</li>
@@ -248,7 +261,7 @@ JAVASCRIPT FILES-->
             <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden"/></h2>
           </div>
           <div class="col-lg12 single-footer-widget">
-            <h2>Complete the form below to begin your custom uniform order process.</h2>
+            <h2>Complete the form below to begin your custom ball order process.</h2>
             <br><p>*Required fields</p>
           </div>
           <div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
