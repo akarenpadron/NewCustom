@@ -19,7 +19,8 @@
   color: #fff; }
 
 ::selection {
-  background-color: #46dbf9;
+  /*background-color: #46dbf9;*/
+  background-color:rgba(22,175,228,0.6); 
   color: #fff; }
 
 ::-webkit-input-placeholder {
