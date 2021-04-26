@@ -2,9 +2,9 @@
 //  ball color swatches 
 
 echo "
-<div class='col-sm-12 col-md-12 col-lg-6 col-xl-6 ballImageSection' align='center' style='margin:auto' >
-  <div class='col-sm-8 col-md-8 col-lg-12 col-xl-10 colors' align='left' style='margin:auto' >
+<div class='col-sm-12 col-md-12 col-lg-6 col-xl-6 ballImageSection' align='left' style='margin:auto' >
     <h1>Design your ball:</h1>";
+    $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2');
     $designCant= array('1', '2');
     $designLabel= array('<br>Primary Color', '<br>Secondary Color');
     for ($i = 0; $i <sizeof($designCant); $i++) {
@@ -12,8 +12,8 @@ echo "
       for ($j = 0; $j <sizeof($colors); $j++) {
         $cadena="MM_showHideLayers(";
         for ($k = 0; $k <sizeof($colors); $k++) {
-          if($k+1==$j+1) $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','show'";
-          else $cadena.="'d1-".$colors[$k]."".$designCant[$i]."','','hide'";
+          if($k+1==$j+1) $cadena.="'".$colors[$k]."ballimg".$designCant[$i]."','','show'";
+          else $cadena.="'".$colors[$k]."ballimg".$designCant[$i]."','','hide'";
           if($k+1<sizeof($colors)) $cadena.=",";
         }
         $cadena.=");document.getElementById('ballcolor".$designCant[$i]."').value = '".strtoupper($colors[$j])."'";
@@ -22,8 +22,7 @@ echo "
         echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
       }
     }
-  echo '</div>
-</div>';
+echo '</div>';
 
 ?>
 

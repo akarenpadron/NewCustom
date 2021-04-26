@@ -25,6 +25,15 @@ echo "
 	      obj.visibility=v; 
 	    }
 	  }
+
+	 $( document ).ready(function() {
+      MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','hide','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','hide','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');
+
+      MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');
+    });
+
+
+
 	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

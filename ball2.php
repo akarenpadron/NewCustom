@@ -33,19 +33,8 @@
     }
   </style>
 
-  <script>
-    /* design2 roy and gld default color */
-    $( document ).ready(function() {
-      MM_showHideLayers('d1-blk1','','hide','d1-chr1','','hide','d1-col1','','hide','d1-gld1','','hide','d1-hun1','','hide','d1-kel1','','hide','d1-lem1','','show','d1-lim1','','hide','d1-nav1','','hide','d1-org1','','hide','d1-pur1','','hide','d1-red1','','hide','d1-roy1','','show','d1-sil1','','hide','d1-tur1','','hide','d1-wht1','','hide');
-      document.getElementById('ballcolor1').value = 'ROY';
-
-      MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','show','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');
-      document.getElementById('ballcolor2').value = 'GLD';
-
-    });
-  </script>
-
-  <div style="height:115px;background-color:var(--gray-light-color)"></div>
+  <div style="height:115px;background-color:var(--gray-light-color)">
+  </div>
   <div class="row d-flex justify-content-between" style="background-image: url(img/BALL-BANNER2.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
     <div class="col-lg-6 col-md-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
       <div width="100%" height="auto" style="margin-top:50%;margin-bottom: 40%;opacity:0">
@@ -53,12 +42,24 @@
       </div>
     </div>
   </div>
+
+  <script>
+    /* design2 roy and gld default color */
+    $( document ).ready(function() {
+      MM_showHideLayers('d1-roy1','','show');
+      document.getElementById('ballcolor1').value = 'ROY';
+
+      MM_showHideLayers('d1-gld2','','show');
+      document.getElementById('ballcolor2').value = 'GLD';
+    });
+  </script>
+
   <div class="row swatch" style="padding-top: 10%;">
     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" style='margin:auto' >
       <div class='col-sm-8 col-md-8 col-lg-6 col-xl-4' style='margin:auto' >
         <div class="ballImageSection" align="center" style="margin:auto; height:450px; width:377px">
-          <div id="d1-ball"><img src="assets/Balls/DESIGN1/ball-texture.png"/></div>
-          <?php  
+          <div id="d1-ball"><img src="assets/Balls/DESIGN2/ball-texture.png"/></div>
+          <?php
             $design_number=2;
             $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur');
             $codes = array('000000', '92C1E9', 'FFB81C', '00594F', '009639', 'e5ff36', '79C000', '00205B', 'FF6900', '592C82', 'BA0C2F', '001489', 'A7A8AA', '00B5E2');
