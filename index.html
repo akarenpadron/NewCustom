@@ -82,15 +82,18 @@ BODY
  	</header>
 	<div style="height:115px;background-color:var(--gray-color)">
 	</div>
-	<div class="row justify-content-center" style="background-image: url(img/homepage-banner.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-			<img width="40%" src="img/customUniforms.png" height="auto" class="slide-first align-center slide-in" style="filter:drop-shadow(0 0px 2px rgba(255, 255, 255, 1));margin-right: 20%;margin-top:3%"/>
+	<div class="row banner justify-content-center" style="background-image: url(img/homepage-banner.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+			<img width="40%" src="img/customUniforms.png" height="auto" class="slide-first align-center slide-in" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-right: 20%;margin-top:3%"/>
 	</div>
 	<style>
 		hS{
 			font-size:28px;
+			text-shadow: 2px 1px 0px #fff, 4px 3px 0px rgb(22,175,228,0.15);
 		}
 		h1{
 			font-weight: 400;
+			
+			text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
 		}
 	</style>
 
@@ -132,7 +135,7 @@ BODY
 				  	</div>
 
 
-					<div class="section-title text-center" style="margin-bottom:0px;">
+					<div class="section-title text-center" style="margin-bottom:45px;">
 						<h1>
 							The SCORE<sup><span style="font-size:50%;">®</span></sup> Experience
 						</h1>
@@ -141,8 +144,9 @@ BODY
 			</div>
 			<style>
 				.single-feature img{
-  					filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
+  					filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;
   					box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  					border-radius: 2px;
 
 				}
 				.singleicon{
@@ -152,6 +156,16 @@ BODY
 				} /*xl 488 l 436 m 518 sm 544 xs 492*/
 				.subs{
   					font-size: 25px;
+  					text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+				}
+				h7{
+  					text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+				}
+				.section-title li{
+  					text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+				}
+				.tcustomballs-area li{
+  					text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
 				}
 
 			</style>
@@ -199,7 +213,13 @@ BODY
 			</div>
 		</div>
 	</section>
-	
+	<style>
+		.gallery-area img{
+			box-shadow:0px 10px 30px 0px rgba(255,255,255, .3), 0px 10px 30px 0px rgba(0, 0, 0, .3);
+			border-radius: 2px;
+		}
+		
+	</style>
     <div class="gallery-area">
         <div class="container-fluid p-0 fix">
             <div class="row" style="text-align: center;margin-left: 30px;margin-right: 30px">
@@ -249,12 +269,20 @@ BODY
 				</div>
 			</div>
 		</div>
-		
+		<style>
+			.popular-img{
+				border-radius: 4px;
+			}
+			.designs{
+				border-radius: 4px;
+			}
+			
+		</style>
 		<div class="popular-items section-padding30" style="margin:30px">
             <div>
 				<div class="row" style="text-align: center;">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="designs single-price single-popular-items  text-center" style="">
+                        <div class="designs single-price single-popular-items mb-50 text-center" style="max-width:400px;">
                         	<a href="uniform1.php">
 	                            <div class="popular-img">
 	                                <img src="img/design1.jpg" width="100%">
@@ -373,25 +401,36 @@ BODY
 	
 	<!-- BALL -->
 	<section class="tcustomballs-area" id="ball">
-	<div class="row justify-content-center" style="background-image: url(img/homepage-banner2.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-			<img width="40%" src="img/customBalls2.png" height="auto" class="align-right slide-in slide-first" style="filter:drop-shadow(0 0px 2px rgba(255, 255, 255, 1));margin-left: 30%;margin-top: 3%;"/>
-	</div>
-	<!--
-	<div class="row single-price justify-content-center" style="background-image: linear-gradient(to right bottom, transparent,var(--gray-color));margin-bottom: 100px;">
-		<div class="end-sec" style="height:300px;">
-			
-			<img src="img/customBalls2.png" height="350px" class="align-right slide-in"/>
-			<img src="img/balls/titulo.png" height="350px" class="align-right slide-in"/>
+		<div class="row banner justify-content-center" style="background-image: url(img/homepage-banner2.jpg);width:100%;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+				<img width="40%" src="img/customBalls2.png" height="auto" class="align-right slide-in slide-first" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-left: 30%;margin-top: 3%;"/>
 		</div>
-	</div>
-	-->
-	<style>
-		ul {
-		    list-style: disc outside;
-		    margin-left: 20px;
-		    padding-left: 0;
-		}
-	</style>
+		<!--
+		<div class="row single-price justify-content-center" style="background-image: linear-gradient(to right bottom, transparent,var(--gray-color));margin-bottom: 100px;">
+			<div class="end-sec" style="height:300px;">
+				
+				<img src="img/customBalls2.png" height="350px" class="align-right slide-in"/>
+				<img src="img/balls/titulo.png" height="350px" class="align-right slide-in"/>
+			</div>
+		</div>
+		-->
+		<style>
+			ul {
+			    list-style: disc outside;
+			    margin-left: 20px;
+			    padding-left: 0;
+			}
+			.pelotafondo{
+				box-shadow: 1px 1px 2px rgba(255,255,255, 1), 3px 3px 2px rgba(0, 0, 0, .4);
+			}
+			.pelota img{
+				box-shadow:0px 10px 30px 0px rgba(255,255,255, .3), 0px 10px 30px 0px rgba(0, 0, 0, .3);
+				border-radius: 10px;
+			}
+			.banner{
+				box-shadow:0px 10px 30px 0px rgba(255,255,255, .3), 0px 10px 30px 0px rgba(0, 0, 0, .3);
+				border-radius: 4px;
+			}
+		</style>
 		<div class="container fullwidth">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-6">
@@ -489,65 +528,56 @@ BODY
 			</div>
 			<style>
 				.single-price{
-					box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+					box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+					font-size:22px;
+					opacity:0.95;
 				}
-
-				.end-sec2{
-					border-bottom:3px solid var(--gray-light-color);
-					border-top:3px solid var(--gray-light-color);
+				.single-price:hover{
+					box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+					color: var(--gray-color);
+					opacity:1;
 				}
-
-				.end-sec2:after {
-				  display: block;
-				  content: "";
-				  width: 15px;
-				  height: 15px;
-				  position: absolute;
-				  top: 13px;
-				  right: 25px;
-				  border-top: 3px solid var(--secondary-light-color);
-				  border-right: 3px solid var(--secondary-light-color);
-				}
-
-				.end-sec2:before {
-				  display: block;
-				  content: "";
-				  width: 15px;
-				  height: 15px;
-				  position: absolute;
-				  bottom: 13px;
-				  left: 25px;
-				  border-bottom: 3px solid var(--secondary-light-color);
-				  border-left: 3px solid var(--secondary-light-color);
-				}
-
 				.end-sec3{
-					border-bottom:3px solid #777;
-					border-top:3px solid #777;
+					border-bottom:3px solid var(--gray-color);
+					border-top:3px solid var(--gray-color);
+					height:100%;
+					border-radius: 6px;
 				}
-
 				.end-sec3:after {
 				  display: block;
 				  content: "";
-				  width: 20px;
-				  height: 20px;
+				  height: 16px;
+				  width:18px;
 				  position: absolute;
 				  top: 23px;
 				  right: 35px;
 				  border-top: 3px solid var(--secondary-color);
 				  border-right: 3px solid var(--secondary-color);
+				  transition: border-top .5s, border-right .5s;
+				  border-radius: 4px;
 				}
-
 				.end-sec3:before {
 				  display: block;
 				  content: "";
-				  width: 20px;
-				  height: 20px;
+				  height: 16px;
+				  width:18px;
 				  position: absolute;
 				  bottom: 23px;
 				  left: 35px;
 				  border-bottom: 3px solid var(--secondary-color);
 				  border-left: 3px solid var(--secondary-color);
+				  transition: border-bottom .5s, border-left .5s;
+				  border-radius: 4px;
+				}
+				.tname{
+				  text-align:right;
+				  color:var(--secondary-color);
+				  text-shadow: 1px 1px 1px rgba(60,60,60,0.2);
+				  font-size:18px;
+				  transition: color .5s;
+				}
+				.end-sec3{
+  					text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
 				}
 
 			</style>
@@ -555,13 +585,13 @@ BODY
 			<div class="row flex" >
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 0px;">
 					<div class="single-price" style="height:100%;">
-						<div class="end-sec end-sec3" style="height:100%;">
+						<div class="end-sec end-sec3">
 							<br>
-							<div style="text-align:justify;font-size:20px">
+							<div style="text-align:justify;">
 								“Service is most important in a soccer club with players coming and going. Teams needing kits in a timely manner. SCORE delivers kits 100% of the time in said emergencies-it’s why we will extend our contact.”
 							</div>
 							<br>
-							<div style="text-align:right;color:var(--secondary-color);text-shadow: 1px 1px 1px rgba(60,60,60,0.2);font-size:18px">
+							<div class="tname">
 								—	Matthew, Club Founder 
 							</div>
 						</div>
@@ -569,13 +599,13 @@ BODY
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 0px">
 					<div class="single-price" style="height:100%">
-						<div class="end-sec end-sec3" style="height:100%;">
+						<div class="end-sec end-sec3">
 							<br>
-							<div style="text-align:justify;font-size:20px">
+							<div style="text-align:justify;">
 								“I have had a tremendous experience with Score over the past few years. Their service is second to none as they always deliver on their promises. They have always dedicated their time to perfecting their uniforms, orders and customer service.”
 							</div>
 							<br>
-							<div style="text-align:right;color:var(--secondary-color);text-shadow: 1px 1px 1px rgba(60,60,60,0.2);font-size:18px">
+							<div class="tname">
 								—	Aaron, DOC
 							</div>
 						</div>

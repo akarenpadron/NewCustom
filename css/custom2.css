@@ -598,7 +598,7 @@ input[type="submit"]{
 .copyright{
   color:#000;
 }
-li:hover{
+header li:hover{
   background-color: rgba(255,255,255,0.05);
   opacity:1;
 }

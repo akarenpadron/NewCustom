@@ -15,7 +15,8 @@ $formproc = new FGContactForm();
 
 //$formproc->AddRecipient('sales@scoresports.com, REBEKA@scoresports.com, CKIESEWETTER@scoresports.com'); //<<---Put your email address here
 
-$formproc->AddRecipient('sales@scoresports.com, rebeka@scoresports.com, webmaster@scoresports.com, diseno15@mesquitamaquiladora.com'); 
+$formproc->AddRecipient('sales@scoresports.com, rebeka@scoresports.com, webmaster@scoresports.com, diseno15@mesquitamaquiladora.com'); //<<---Put your email address here
+
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
