@@ -82,9 +82,14 @@ BODY
  	</header>
 	<div style="height:115px;background-color:var(--gray-color)">
 	</div>
-	<div class="row banner justify-content-center" style="background-image: url(img/homepage-banner.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-			<img width="40%" src="img/customUniforms.png" height="auto" class="slide-first align-center slide-in" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-right: 20%;margin-top:3%"/>
+	
+	<div class="row banner d-flex justify-content-between" style="background-image: url(img/homepage-banner.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+	    <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:20%;margin-right:auto;align-self: right">
+	        <img width="80%" src="img/customUniforms.png" height="auto" class="slide-first align-center slide-in" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-right: 40%;margin-top:8%;margin-bottom:3%"/>
+	    </div>
 	</div>
+
+
 	<style>
 		hS{
 			font-size:28px;
@@ -213,6 +218,8 @@ BODY
 			</div>
 		</div>
 	</section>
+
+	
 	<style>
 		.gallery-area img{
 			box-shadow:0px 10px 30px 0px rgba(255,255,255, .3), 0px 10px 30px 0px rgba(0, 0, 0, .3);
@@ -401,9 +408,14 @@ BODY
 	
 	<!-- BALL -->
 	<section class="tcustomballs-area" id="ball">
-		<div class="row banner justify-content-center" style="background-image: url(img/homepage-banner2.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
-				<img width="40%" src="img/customBalls2.png" height="auto" class="align-right slide-in slide-first" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-left: 30%;margin-top: 3%;"/>
+		
+
+		<div class="row banner d-flex justify-content-center" style="background-image: url(img/homepage-banner2.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
+			<div class="col-6 slide-in align-left" style="margin-left:35%;margin-right:auto;align-self: right">
+				<img width="80%" src="img/customBalls2.png" height="auto" class="align-right slide-first" style="filter: drop-shadow(1px 1px 1px rgba(255,255,255,1)) drop-shadow(1px 1px 1px rgba(0,0,0,0.3)) ;margin-left: 30%;margin-top: 8%;margin-bottom:3%"/>
+			</div>
 		</div>
+
 		<!--
 		<div class="row single-price justify-content-center" style="background-image: linear-gradient(to right bottom, transparent,var(--gray-color));margin-bottom: 100px;">
 			<div class="end-sec" style="height:300px;">
@@ -729,10 +741,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     function checkSlide() {
         sliderImages.forEach(
         	sliderImage => {
-		        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
-		        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+		        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.offsetHeight / 2;
+		        console.log(sliderImage.offsetHeight);
+		        const imageBottom = sliderImage.offsetTop + sliderImage.offsetHeight;
+		        console.log(sliderImage.offsetTop);
 		        const isHalfShown = slideInAt > sliderImage.offsetTop;
 		        const isNotScrolledPast = window.scrollY < imageBottom;
+		        console.log(slideInAt);
 		        if (isHalfShown && isNotScrolledPast) {
 		          sliderImage.classList.add('active');
 		        } else {
