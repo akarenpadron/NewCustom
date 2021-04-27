@@ -478,7 +478,21 @@ input[type="submit"]{
   top:30px;
   visibility: hidden;
 }
+#whtbase1a, #whtbase2a, #blkbase1a, #blkbase2a, #burbase1a, #burbase2a, #chrbase1a, #chrbase2a, #colbase1a, #colbase2a, #gldbase1a, #gldbase2a, #hunbase1a, #hunbase2a, #kelbase1a, #kelbase2a, #lembase1a, #lembase2a, #limbase1a, #limbase2a, #navbase1a, #navbase2a, #orgbase1a, #orgbase2a, #redbase1a, #redbase2a, #roybase1a, #roybase2a, #silbase1a, #silbase2a, #turbase1a, #turbase2a{
+  position:absolute;
+  /* width:290px;
+  height:115px; */
+  z-index:1;
+  top:30px;
+  visibility: hidden;
+}
 #blksock1, #bursock1, #chrsock1, #colsock1, #gldsock1, #hunsock1, #navsock1, #orgsock1, #redsock1, #roysock1, #tursock2, #whtsock1, #troysock1, #tredsock1, #tnavsock1, #thunsock1, #tgoldsock1, #tbursock1, #tblacksock1{
+  position:absolute;
+  z-index:1;
+  top:30px;
+  visibility: hidden;
+}
+#blksock1a, #bursock1a, #chrsock1a, #colsock1a, #gldsock1a, #hunsock1a, #navsock1a, #orgsock1a, #redsock1a, #roysock1a, #tursock2a, #whtsock1a, #troysock1a, #tredsock1a, #tnavsock1a, #thunsock1a, #tgoldsock1a, #tbursock1a, #tblacksock1a{
   position:absolute;
   z-index:1;
   top:30px;
@@ -498,8 +512,27 @@ input[type="submit"]{
   top: 30px;
   visibility: visible;
 }
+#redbase3a, #blkbase1a, #redbase2a, #redsock1a {
+  position:absolute;
+  z-index:1;
+  top: 30px;
+  visibility: visible;
+}
+
+#redsho2a, #blksho1a, #redsho2a {
+  position:absolute;
+  z-index:1;
+  top: 30px;
+  visibility: visible;
+}
 
 #whtsho1, #whtsho2, #blksho2, #bursho1, #bursho2, #chasho1, #chasho2, #chrsho1, #chrsho2, #colsho1, #colsho2, #gldsho1, #gldsho2, #hunsho1, #hunsho2, #kelsho1, #kelsho2, #lemsho1, #lemsho2, #limsho1, #limsho2, #navsho1, #navsho2,#orgsho1, #orgsho2, #redsho1, #roysho1, #roysho2, #silsho1, #silsho2, #tursho1, #tursho2{
+  position:absolute;
+  z-index:1;
+  top: 30px;
+  visibility: hidden;
+}
+#whtsho1a, #whtsho2a, #blksho2a, #bursho1a, #bursho2a, #chasho1a, #chasho2a, #chrsho1a, #chrsho2a, #colsho1a, #colsho2a, #gldsho1a, #gldsho2a, #hunsho1a, #hunsho2a, #kelsho1a, #kelsho2a, #lemsho1a, #lemsho2a, #limsho1a, #limsho2a, #navsho1a, #navsho2a,#orgsho1a, #orgsho2a, #redsho1a, #roysho1a, #roysho2a, #silsho1a, #silsho2a, #tursho1a, #tursho2a{
   position:absolute;
   z-index:1;
   top: 30px;
