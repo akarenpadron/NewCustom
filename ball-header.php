@@ -9,10 +9,10 @@ echo "
 	        </div>
 	        <nav id='nav-menu-container'>
 	          <ul class='nav-menu'>
-	            <li id='index-ref'><a href='index.html'>HOME</a></li>
-	            <li id='ball1-ref'><a href='ball1.php'>DESIGN 1</a></li>
-	            <li id='ball2-ref'><a href='ball2.php'>DESIGN 2</a></li>
-	            <li id='ball3-ref'><a href='ball3.php'>DESIGN 3</a></li>
+	            <li><a id='index-ref' href='index.html'>HOME</a></li>
+	            <li><a id='ball1-ref' href='ball1.php'>DESIGN 1</a></li>
+	            <li><a id='ball2-ref' href='ball2.php'>DESIGN 2</a></li>
+	            <li><a id='ball3-ref' href='ball3.php'>DESIGN 3</a></li>
 	            <li><a href='#contact'>CONTACT US</a></li>
 	          </ul>
 	        </nav>

@@ -13,7 +13,7 @@
   </head>
   <body>
     <?php include 'ball-header.php'; ?> <!--  block ball header -->
-    <style>  #ball2-ref{ background-color: rgba(255,255,255,0.05); } </style> <!-- menu active -->
+    <style>  #ball2-ref{ color: rgba(115,220,255, .7); } </style> <!-- menu active -->
     <script> /* design2 roy and gld default color */
       $( document ).ready(function() {
         MM_showHideLayers('royballimg1','','show','gldballimg2','','show');

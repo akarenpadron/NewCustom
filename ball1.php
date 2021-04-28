@@ -13,7 +13,7 @@
   </head>
   <body>
     <?php include 'ball-header.php'; ?> <!--  block ball header -->
-    <style>  #ball1-ref{ background-color: rgba(255,255,255,0.05); } </style> <!-- menu active -->
+    <style>  #ball1-ref{ color: rgba(115,220,255, .7); } </style> <!-- menu active -->
     <script> /* design1 lem and tur default color */
       $( document ).ready(function() {
         MM_showHideLayers('lemballimg1','','show','turballimg2','','show');

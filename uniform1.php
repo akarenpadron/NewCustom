@@ -86,29 +86,15 @@ JAVASCRIPT FILES-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
-	<header id="header">
-		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="img/banner-logo.png" alt="" title="" /></a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li><a href="index.html">HOME</a></li>
-						<li class="menu-active" style="background-color: rgba(255,255,255,0.05)"><a href="uniform1.php">DESIGN 1</a></li>
-						<li><a href="uniform2.php">DESIGN 2</a></li>
-            <li><a href="uniform3.php">DESIGN 3</a></li>
-            <li><a href="uniform4.php">DESIGN 4</a></li>
-            <li><a href="uniform5.php">DESIGN 5</a></li>
-            <li><a href="uniform6.php">DESIGN 6</a></li>
-            <li><a href="uniform7.php">DESIGN 7</a></li>
-            <li><a href="uniform8.php">DESIGN 8</a></li>
-						<li><a href="#contact">CONTACT US</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-  </header>
+
+  <style> 
+    #uniform1-ref{ 
+      color: rgba(115,220,255, .7); 
+    } 
+  </style> <!-- menu active -->
+
+  <?php include 'uniform-header.php'; ?> <!--  block uniform header -->
+
   <div style="height:115px;background-color:var(--gray-light-color)"></div>
   <div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER1.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
     <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
