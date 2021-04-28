@@ -33,7 +33,7 @@ echo "
   <div class='row'>
     <div class='col-sm-6'>
       <label for='email' ><font color='#6D6E71'>Primary Ball Color*:</font></label>
-      <input type='text' name='Secondary Color' id='ballcolor1' value='".$formproc->SafeDisplay('ballcolor1') ."' maxlength='50' /><br/>
+      <input type='text' name='Primary Ball Color' id='ballcolor1' value='".$formproc->SafeDisplay('ballcolor1') ."' maxlength='50' /><br/>
       <span id='contactus_email_errorloc' class='error'></span>
     </div>
     <div class='col-sm-6'>

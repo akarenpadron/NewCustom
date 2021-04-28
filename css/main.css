@@ -2054,7 +2054,7 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav ul li {
   position: relative; }
 
-#mobile-nav ul li a {
+#mobile-nav ul li{
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
@@ -2067,10 +2067,6 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   font-weight: 700; 
 opacity:1;}
-
-#mobile-nav ul li a:hover {
-  opacity: 0.3; 
-}
 
 #mobile-nav ul li li {
   padding-left: 30px; }

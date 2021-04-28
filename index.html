@@ -61,6 +61,55 @@ BODY
 
 <body>
 	<!-- start header Area -->
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Lato);
+		ul {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: start;
+		  list-style-type: none;
+		}
+		#mobile-nav ul li a{
+	  		position: relative;
+		    padding: 4px 0;
+		    font-family: Lato, sans-serif;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    transition: 0.5s;
+		}
+		#mobile-nav ul li:hover a{
+	  		color: #95a5a6;
+		}
+		#mobile-nav ul li a:after{
+	        position: absolute;
+	        content: "";
+	        top: 100%;
+	        left: 0;
+	        width: 100%;
+	        height: 3px;
+	        background: var(--secondary-color);
+	        transform: scaleX(0);
+	        transform-origin: right;
+	        transition: transform 0.5s;
+	    }
+	    #mobile-nav ul li:hover a:after{
+	    	transform: scaleX(1);
+	    	transform-origin: left;
+		}
+		.menu-active{
+	  		color: rgba(115,220,255, .7);
+		}
+		#mobile-nav ul li{
+	  		margin-top: 5px;
+		}
+	</style>
+	<!--<script src='js/vendor/jquery-2.2.4.min.js'></script>
+	<script>
+		function showDiv() {
+		   document.getElementById('#∫sub-menu-uniforms').style.display = "none";
+		   console.log("mostrando");
+		}
+	</script>-->
 	<header id="header">
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
@@ -68,10 +117,29 @@ BODY
 					<a href="index.html"><img src="img/banner-logo.png" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container" >
-					<ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Home</a></li>
+					<ul class="nav-menu" style="margin-top: 10px;">
+						<li><a class="menu-active" href="index.html">Home</a></li>
 						<li><a href="#instructions">INSTRUCTIONS</a></li>
-						<li><a href="#uniforms">CUSTOM UNIFORM</a></li>
+						<li id="menu-uniforms">
+							<a href="#uniforms">
+								CUSTOM UNIFORM
+							</a> 
+							<!--<button onclick="showDiv()" style="background-color:transparent; border-color: transparent">
+								<i id="uniforms-arrow" class="fas fa-chevron-down"></i>
+							</button>-->
+						</li>
+						<!--<div id="sub-menu-uniforms" style="display:inline">
+							<ul class="sub-menu">
+								<li><a href="uniform1.php">DESIGN 1</a></li>
+								<li><a href="uniform2.php">DESIGN 2</a></li>
+					            <li><a href="uniform3.php">DESIGN 3</a></li>
+					            <li><a href="uniform4.php">DESIGN 4</a></li>
+					            <li><a href="uniform5.php">DESIGN 5</a></li>
+					            <li><a href="uniform6.php">DESIGN 6</a></li>
+					            <li><a href="uniform7.php">DESIGN 7</a></li>
+					            <li><a href="uniform8.php">DESIGN 8</a></li>
+							</ul>
+						</div>-->
 						<li><a href="#ball">BUILD A BALL</a></li>
 						<li><a href="#featured">FEATURED</a></li>
 						<li><a href="#contact">CONTACT US</a></li>
@@ -89,11 +157,10 @@ BODY
 	    </div>
 	</div>
 
-
 	<style>
 		hS{
 			font-size:28px;
-			text-shadow: 2px 1px 0px #fff, 4px 3px 0px rgb(22,175,228,0.15);
+			text-shadow: 2px 1px 0px #fff, 4px 3px 0px rgba(22,175,228,0.15);
 		}
 		h1{
 			font-weight: 400;

@@ -631,10 +631,10 @@ input[type="submit"]{
 .copyright{
   color:#000;
 }
-header li:hover{
+/*header li:hover{
   background-color: rgba(255,255,255,0.05);
   opacity:1;
-}
+}*/
 #mobile-nav ul li a:hover {
   opacity: 1; 
 }
@@ -692,4 +692,14 @@ header li:hover{
   .swatch h1{
     text-transform: uppercase;
     font-size: 27.6px;
+  }
+  .uniform-title{
+    text-shadow: 1px 1px 0px var(--secondary-light-color), 2px 2px 0px rgba(0,0,0,0.15);
+  }
+  #logo img, .lnr-menu{
+    filter: drop-shadow(-1px 0 rgba(00,00,00,.5))  
+    drop-shadow(0 1px rgba(00,00,00,.5)) 
+    drop-shadow(1px 0 rgba(00,00,00,.5)) 
+    drop-shadow(0 -1px rgba(00,00,00,.5));
+    /*filter: drop-shadow(0 4px 8px rgba(0, 0, 0, .2))  drop-shadow(0 6px 20px rgba(0, 0, 0, .19));*/
   }
