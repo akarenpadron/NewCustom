@@ -103,6 +103,9 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
+
+<form id='contactus' runat="server" action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
+<fieldset>
   <div class="container">
     <div class="row" style="padding-top: 10%;padding-bottom:2%">
       <div class="col-12">
@@ -114,6 +117,9 @@ JAVASCRIPT FILES-->
     <div class="row swatch">
       <div class="col-lg-6">
         <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+          <div style="position: relative; left: 0; top: 0;">
+            <img id="logo-img1" src="img/YourLogo.png" class='logo-image'/>
+          </div>
           <style>
             .circle{
               margin:1.84px;margin-top:3px;margin-bottom:3px;
@@ -168,6 +174,9 @@ JAVASCRIPT FILES-->
             echo "<div class='circle' style='{$style}' onClick=\"{$onEventActionString}\"></div>";
           }
         ?>
+        <h1><br>UPLOAD YOUR LOGO:</h1>
+        <input class='genric-btn primary radius' type='file' name='image' id='imgInp1' multiple accept value='<?php $formproc->SafeDisplay('image') ?>' maxlength='50' /><br/>
+
       </div>
     </div>
   </div>
@@ -182,12 +191,25 @@ JAVASCRIPT FILES-->
     </div>
     <div class="row swatch">
       <div class="col-lg-6">
+        
         <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+          <div style="position: relative; left: 0; top: 0;">
+            <img id="logo-img2" src="img/YourLogo.png" class='logo-image'/>
+          </div>
           <style>
             .circle{
               margin:1.84px;margin-top:3px;margin-bottom:3px;
             }
+            .logo-image, .logo-image2{
+              position:absolute;
+              height:55;
+              width:55px;
+              top: 105px;
+              left : 225px;
+              z-index: 2;
+            }
           </style>
+          
           <?php  
             $design_number='2';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
@@ -239,6 +261,7 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
+  
   <section class="prefooter section-gap align-items-center">
     <div class="container">
       <div class="row">
@@ -351,8 +374,8 @@ JAVASCRIPT FILES-->
   </div>
   <footer class="footer-area section-gap" id="contact">
     <div class="container">
-      <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
-        <fieldset>
+
+      <!-- forn and fieldset start -->
           <input type='hidden' name='submitted' id='submitted' value='1'/>
           <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
           <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
@@ -360,8 +383,34 @@ JAVASCRIPT FILES-->
             <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
           </div>
           <?php include 'uniform-form.php'; ?> <!--  block request fields -->
-        </fieldset>
-      </form>
+      <!-- form and fieldset end -->
+
+      <script>
+        function readURL(input) {
+          if (input.files && input.files[0]) {
+
+            var reader = new FileReader();
+            reader.onload = function (e) {
+
+              $('#logo-img1').attr('src', e.target.result);
+              $('#logo-img2').attr('src', e.target.result);
+              
+
+            }
+            reader.readAsDataURL(input.files[0]);
+            $('#imgInp').src=input.files[0];
+          }
+        }
+
+        $("#imgInp").change(function(){
+          readURL(this);
+        });
+
+        $("#imgInp1").change(function(){
+          readURL(this);
+        });
+      </script>
+
       <div class="container">
         <div class="row">
           <center><a href="#con1" data-toggle="modal" class="genric-btn primary radius" role="button" style="margin-top:20px">Terms and Conditions</a><br></p>
@@ -371,6 +420,8 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </footer>
+</fieldset>
+</form>
   <footer class="footer-area section-gap" id="contact">
     <div class="container fullwidth">
       <div class="col-lg12 single-footer-widget">

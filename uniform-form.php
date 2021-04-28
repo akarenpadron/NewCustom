@@ -101,7 +101,7 @@ echo "
     </div>
     <div class='col-sm-4'>
       <label for='photo' ><font color='#6D6E71'>Logo Upload*:</font></label>
-        <input class='genric-btn primary radius' type='file' name='photo' id='photo' multiple accept value='".$formproc->SafeDisplay('photo')."' maxlength='50' /><br/>
+        <input class='genric-btn primary radius' type='file' name='photo' id='imgInp' multiple accept value='".$formproc->SafeDisplay('photo')."' maxlength='50' /><br/>
         <span id='contactus_newupload_errorloc' class='error'></span>
     </div>
   </div>
