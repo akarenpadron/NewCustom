@@ -86,6 +86,7 @@ JAVASCRIPT FILES-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
+
   <style> 
     #uniform4-ref{ 
       color: rgba(115,220,255, .7); 
@@ -93,6 +94,7 @@ JAVASCRIPT FILES-->
   </style> <!-- menu active -->
 
   <?php include 'uniform-header.php'; ?> <!--  block uniform header -->
+
   <div style="height:115px;background-color:var(--gray-light-color)"></div>
   <div class="row d-flex justify-content-between" style="background-image: url(img/UNIFORM-BANNER4.jpg);width:100%;height:auto;background-size: 100% 100%;margin-right: 0px;margin-left: 0px;">
     <div class="col-lg-6 col-md-6 col-sm-6 col-6 single-footer-widget float-right vertical-align" style="margin-left:30%;margin-right:auto;align-self: right">
@@ -101,6 +103,9 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
+
+<form id='contactus' runat="server" action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8' style="margin-bottom:0px;">
+<fieldset>
   <div class="container">
     <div class="row" style="padding-top: 10%;padding-bottom:2%">
       <div class="col-12">
@@ -111,14 +116,12 @@ JAVASCRIPT FILES-->
     </div>
     <div class="row swatch">
       <div class="col-lg-6">
-        <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
-          <style>
-            .circle{
-              margin:1.84px;margin-top:3px;margin-bottom:3px;
-            }
-          </style>
+        <div align="center" style="margin:auto; height:850px; width:400px"><!--200-->
+          <div style="position: relative; left: 0; top: 0;">
+            <img id="logo-img1" src="img/YourLogo.png" class='logo-image'/>
+          </div>
           <?php  
-            $design_number='2'; // Design 1 of the P2D2 folder
+            $design_number='2'; // Design 2 of the P2D2 folder
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
             $codes = array('000000','6F263D','3F4444','92C1E9','FFB81C','00594F','009639','C0DF16','79C000','00205B','FF6900','BA0C2F','001489','A7A8AA','00B5E2','fff');
             $s_colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun','nav', 'org', 'red', 'roy', 'wht');
@@ -130,6 +133,7 @@ JAVASCRIPT FILES-->
             foreach($colors as $color) echo "<div id='".$color."sho1'><img id='".$color."imgsho1' src='assets/Uniforms/P2D2/SHORT/design".$design_number."-".$color."1.png'/></div> <div id='".$color."base1'><img id='".$color."imgbase1' src='assets/Uniforms/P2D2/JERSEY/design".$design_number."-".$color."1.png'/></div>";
             foreach($colors as $color) echo "<div id='".$color."sho2'><img id='".$color."imgsho2' src='assets/Uniforms/P2D2/SHORT/design".$design_number."-".$color."2.png'/></div> <div id='".$color."base2'><img id='".$color."imgbase2' src='assets/Uniforms/P2D2/JERSEY/design".$design_number."-".$color."2.png'/></div>";
             foreach($s_colors as $color) echo "<div id='".$color."sock1'><img id='".$color."imgsock1' src='assets/Uniforms/P2D2/SOCKS/design".$design_number."-".$color."1.png'/></div>";
+
           echo "</div>";
         echo "</div>";
         echo "<div class='col-lg-6 colors'>";
@@ -165,9 +169,13 @@ JAVASCRIPT FILES-->
             echo "<div class='circle' style='{$style}' onClick=\"{$onEventActionString}\"></div>";
           }
         ?>
+        <h1><br>UPLOAD YOUR LOGO:</h1>
+        <input class='genric-btn primary radius' type='file' name='image' id='imgInp1' multiple accept value='<?php $formproc->SafeDisplay('image') ?>' maxlength='50' /><br/>
+
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="row" style="padding-top: 10%;padding-bottom:2%">
       <div class="col-12">
@@ -178,12 +186,10 @@ JAVASCRIPT FILES-->
     </div>
     <div class="row swatch">
       <div class="col-lg-6">
-        <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
-          <style>
-            .circle{
-              margin:1.84px;margin-top:3px;margin-bottom:3px;
-            }
-          </style>
+        <div align="center" style="margin:auto; height:850px; width:400px"><!--200-->
+          <div style="position: relative; left: 0; top: 0;">
+            <img id="logo-img2" src="img/YourLogo.png" class='logo-image'/>
+          </div>
           <?php  
             $design_number='2';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
@@ -235,6 +241,7 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </div>
+
   <section class="prefooter section-gap align-items-center">
     <div class="container">
       <div class="row">
@@ -347,17 +354,37 @@ JAVASCRIPT FILES-->
   </div>
   <footer class="footer-area section-gap" id="contact">
     <div class="container">
-      <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
-        <fieldset>
-          <input type='hidden' name='submitted' id='submitted' value='1'/>
-          <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
-          <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
-          <div>
-            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design4" value="Design 4" type="hidden" /></h2>
-          </div>
-          <?php include 'uniform-form.php'; ?> <!--  block request fields -->
-        </fieldset>
-      </form>
+
+      <!-- form and fieldset start -->
+      <input type='hidden' name='submitted' id='submitted' value='1'/>
+      <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
+      <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
+      <div>
+        <h2 align="center" style="margin-top:-10px"><input name="Design" id="design4" value="Design 4" type="hidden" /></h2>
+      </div>
+      <?php include 'uniform-form.php'; ?> <!--  block request fields -->
+      <!-- form and fieldset end -->
+
+      <script>
+        function readURL(input) {
+          if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+              $('#logo-img1').attr('src', e.target.result);
+              $('#logo-img2').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+            $('#imgInp').src=input.files[0];
+          }
+        }
+        $("#imgInp").change(function(){
+          readURL(this);
+        });
+        $("#imgInp1").change(function(){
+          readURL(this);
+        });
+      </script>
+
       <div class="container">
         <div class="row">
           <center><a href="#con1" data-toggle="modal" class="genric-btn primary radius" role="button" style="margin-top:20px">Terms and Conditions</a><br></p>
@@ -367,6 +394,8 @@ JAVASCRIPT FILES-->
       </div>
     </div>
   </footer>
+</fieldset>
+</form>
   <footer class="footer-area section-gap" id="contact">
     <div class="container fullwidth">
       <div class="col-lg12 single-footer-widget">

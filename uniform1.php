@@ -104,7 +104,7 @@ JAVASCRIPT FILES-->
     </div>
   </div>
 
-<form id='contactus' runat="server" action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
+<form id='contactus' runat="server" action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8' style="margin-bottom:0px;">
 <fieldset>
   <div class="container">
     <div class="row" style="padding-top: 10%;padding-bottom:2%">
@@ -116,16 +116,11 @@ JAVASCRIPT FILES-->
     </div>
     <div class="row swatch">
       <div class="col-lg-6">
-        <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+        <div align="center" style="margin:auto; height:850px; width:400px"><!--200-->
           <div style="position: relative; left: 0; top: 0;">
             <img id="logo-img1" src="img/YourLogo.png" class='logo-image'/>
           </div>
-          <style>
-            .circle{
-              margin:1.84px;margin-top:3px;margin-bottom:3px;
-            }
-          </style>
-          <?php  
+          <?php
             $design_number='2';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
             $codes = array('000000','6F263D','3F4444','92C1E9','FFB81C','00594F','009639','C0DF16','79C000','00205B','FF6900','BA0C2F','001489','A7A8AA','00B5E2','fff');
@@ -191,25 +186,10 @@ JAVASCRIPT FILES-->
     </div>
     <div class="row swatch">
       <div class="col-lg-6">
-        
-        <div align="center" style="margin:auto; height:850px; width:290px"><!--200-->
+        <div align="center" style="margin:auto; height:850px; width:400px"><!--200-->
           <div style="position: relative; left: 0; top: 0;">
             <img id="logo-img2" src="img/YourLogo.png" class='logo-image'/>
           </div>
-          <style>
-            .circle{
-              margin:1.84px;margin-top:3px;margin-bottom:3px;
-            }
-            .logo-image, .logo-image2{
-              position:absolute;
-              height:55;
-              width:55px;
-              top: 105px;
-              left : 225px;
-              z-index: 2;
-            }
-          </style>
-          
           <?php  
             $design_number='2';
             $colors = array('blk', 'bur', 'chr', 'col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'red', 'roy', 'sil', 'tur', 'wht');
@@ -375,42 +355,36 @@ JAVASCRIPT FILES-->
   <footer class="footer-area section-gap" id="contact">
     <div class="container">
 
-      <!-- forn and fieldset start -->
-          <input type='hidden' name='submitted' id='submitted' value='1'/>
-          <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
-          <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
-          <div>
-            <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
-          </div>
-          <?php include 'uniform-form.php'; ?> <!--  block request fields -->
+      <!-- form and fieldset start -->
+      <input type='hidden' name='submitted' id='submitted' value='1'/>
+      <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
+      <input type='hidden'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
+      <div>
+        <h2 align="center" style="margin-top:-10px"><input name="Design" id="design1" value="Design 1" type="hidden" /></h2>
+      </div>
+      <?php include 'uniform-form.php'; ?> <!--  block request fields -->
       <!-- form and fieldset end -->
 
       <script>
         function readURL(input) {
           if (input.files && input.files[0]) {
-
             var reader = new FileReader();
             reader.onload = function (e) {
-
               $('#logo-img1').attr('src', e.target.result);
               $('#logo-img2').attr('src', e.target.result);
-              
-
             }
             reader.readAsDataURL(input.files[0]);
             $('#imgInp').src=input.files[0];
           }
         }
-
         $("#imgInp").change(function(){
           readURL(this);
         });
-
         $("#imgInp1").change(function(){
           readURL(this);
         });
       </script>
-
+      
       <div class="container">
         <div class="row">
           <center><a href="#con1" data-toggle="modal" class="genric-btn primary radius" role="button" style="margin-top:20px">Terms and Conditions</a><br></p>

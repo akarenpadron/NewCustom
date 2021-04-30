@@ -341,6 +341,11 @@ a:hover{
   border-radius: 50%;
   display: inline-block;
 }
+.circle{
+  margin:1.84px;
+  margin-top:3px;
+  margin-bottom:3px;
+}
 .ballImages{
   width:377px;
   height:377px;
@@ -732,4 +737,12 @@ input[type="submit"]{
   }
   #mobile-nav ul li{
       margin-top: 5px;
+  }
+  .logo-image, .logo-image2{
+    position:absolute;
+    height:auto;
+    width:13%;
+    top: 105px;
+    left: 58%;
+    z-index: 2;
   }
