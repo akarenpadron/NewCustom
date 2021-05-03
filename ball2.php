@@ -27,6 +27,10 @@
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" style='margin:auto' >
             <div class="ballImageSection" align="center" style="margin:auto; height:450px; width:377px">
               <div id="d1-ball"><img src="assets/Balls/DESIGN2/ball-texture.png"/></div>
+             <!-- <div style="position: relative; left: 0; top: 0;">
+                <img style="height: auto; width: 30%; top: 45px; left: 55%; transform: rotate(35deg) rotateX(50deg)" id="logo-img2"  class='logo-image'/>
+                <img style="height: auto; width: 30%; top: 135px; left: 12%; transform: rotate(-35deg) rotateX(15deg);" id="logo-img1"  class='logo-image'/>
+              </div>-->
               <?php
                 $design_number=2;
                 $colors = array('blk','col', 'gld', 'hun', 'kel', 'lem', 'lim', 'nav', 'org', 'pur', 'red', 'roy', 'sil', 'tur');
@@ -51,6 +55,26 @@
               <h2 align="center" style="margin-top:-10px"><input name="Design" id="design2" value="Design 2" type="hidden"/></h2>
             </div>
             <?php include 'ball-form.php'; ?> <!--  block request fields -->
+            <!--<script>
+              function readURL(input) {
+                if (input.files && input.files[0]) {
+                  var reader = new FileReader();
+                  reader.onload = function (e) {
+                    $('#logo-img1').attr('src', e.target.result);
+                    $('#logo-img2').attr('src', e.target.result);
+                    localStorage.setItem("srcLogo", e.target.result);
+                    localStorage.setItem("statusLogo", "started");
+                  }
+                  reader.readAsDataURL(input.files[0]);
+                }
+              }
+              $("#imgInp").change(function(){
+                readURL(this);
+              });
+              $("#imgInp1").change(function(){
+                readURL(this);
+              });
+            </script>-->
           </fieldset>
         </form>
         <?php include 'ball-terms-conditions.php'; ?> <!--  block terms and condiions, button and modal -->

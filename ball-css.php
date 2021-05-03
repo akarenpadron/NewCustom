@@ -1,7 +1,4 @@
-<?php
-//  ball color swatches 
 
-echo "
 
 	<link rel='stylesheet' href='css/linearicons.css'>
 	<link rel='stylesheet' href='css/font-awesome.min.css'>
@@ -16,10 +13,4 @@ echo "
 	<link rel='stylesheet' href='css/custom2.css'>
 	<link rel='shortcut icon' href='assets/logoW.ico'>
 	<link rel='icon' href='assets/logoW.ico'>
-
-
-
-";
-
-?>
 

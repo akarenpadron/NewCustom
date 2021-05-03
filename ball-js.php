@@ -1,7 +1,4 @@
-<?php
-//  ball color swatches 
 
-echo "
 
 	<script async src='https://www.googletagmanager.com/gtag/js?id=UA-139383456-1'></script>
 	<script>
@@ -14,7 +11,6 @@ echo "
 	<script src='https://kit.fontawesome.com/a6517f657d.js' crossorigin='anonymous'></script>
 	<script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 	<script type='text/javascript' src='scripts/fg_captcha_validator.js'></script>
-	<script type='text/javascript' src='scripts/custom2.js'></script>
 	<script type='text/javascript'>
 	  var iWebkit;if(!iWebkit){iWebkit=window.onload=function(){function fullscreen(){var a=document.getElementsByTagName('a');for(var i=0;i<a.length;i++){if(a[i].className.match('noeffect')){}else{a[i].onclick=function(){window.location=this.getAttribute('href');return false}}}}function hideURLbar(){window.scrollTo(0,0.9)}iWebkit.init=function(){fullscreen();hideURLbar()};iWebkit.init()}}
 	  function MM_showHideLayers() { //v9.0
@@ -31,9 +27,23 @@ echo "
 
       MM_showHideLayers('d1-blk2','','hide','d1-chr2','','hide','d1-col2','','hide','d1-gld2','','hide','d1-hun2','','hide','d1-kel2','','hide','d1-lem2','','hide','d1-lim2','','hide','d1-nav2','','hide','d1-org2','','hide','d1-pur2','','hide','d1-red2','','hide','d1-roy2','','hide','d1-sil2','','hide','d1-tur2','','hide','d1-wht2','','hide');
     });
-
-
-
+	(document).on('change', '#imgInp1', function(){ 
+	    console.log("on change");
+	    imgInp1 = document.getElementById('logo-img1');
+	    console.log("//////////////////////////");
+	    //console.log(imgInp1.src);
+	    //console.log("//////////////////////////");
+	    var imgCanvas = document.createElement("canvas");
+	    imgContext = imgCanvas.getContext("2d");
+	    imgCanvas.width = imgInp1.width;
+	    imgCanvas.height = imgInp1.height;
+	    imgContext.drawImage(imgInp1, 0, 0, imgInp1.width, imgInp1.height);
+	    //console.log(imgCanvas.toDataURL("image/png"));
+	    localStorage.setItem("srcLogo", imgCanvas.toDataURL("image/png"));
+	    localStorage.setItem("srcLogo", imgCanvas.toDataURL("img/YourLogo.png"));
+	    localStorage.setItem("statusLogo", "started");
+	    imgInp1.setAttribute("src", imgCanvas.toDataURL("image/png"));
+    });
 	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -65,9 +75,4 @@ echo "
 	<script src='js/jqBootstrapValidation.js'></script>
 	<script src='js/contact.js'></script>
 
-
-
-";
-
-?>
 

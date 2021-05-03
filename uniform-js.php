@@ -97,6 +97,7 @@ echo "
 
 
   $( document ).ready(function() {
+    //localStorage.clear();
     imgInp1 = document.getElementById("logo-img1");
     imgInp2 = document.getElementById("logo-img2");
 
@@ -136,6 +137,37 @@ echo "
       document.getElementById("sockcolor1a").value = localStorage.getItem("sock1acolor");
     }else{
       console.log("No previous design");
+      hideAll();
+      localStorage.setItem("base1l", "blkbase1");
+      localStorage.setItem("base2l", "redbase2");
+      localStorage.setItem("sho1l", "blksho1");
+      localStorage.setItem("sho2l", "redsho2");
+      localStorage.setItem("sock1l", "redsock1");
+      localStorage.setItem("base1al", "blkbase1a");
+      localStorage.setItem("base2al", "redbase2a");
+      localStorage.setItem("sho1al", "blksho1a");
+      localStorage.setItem("sho2al", "redsho2a");
+      localStorage.setItem("sock1al", "redsock1a");
+      MM_showHideLayers('blkbase1','','show');
+      MM_showHideLayers('redbase2','','show');
+      MM_showHideLayers('blksho1','','show');
+      MM_showHideLayers('redsho2','','show');
+      MM_showHideLayers('redsock1','','show');
+      MM_showHideLayers('blkbase1a','','show');
+      MM_showHideLayers('redbase2a','','show');
+      MM_showHideLayers('blksho1a','','show');
+      MM_showHideLayers('redsho2a','','show');
+      MM_showHideLayers('redsock1a','','show');
+      document.getElementById("basecolor1").value = 'BLK';
+      document.getElementById("basecolor2").value = 'RED';
+      document.getElementById("shocolor1").value = 'BLK';
+      document.getElementById("shocolor2").value = 'RED';
+      document.getElementById("sockcolor1").value = 'RED';
+      document.getElementById("basecolor1a").value = 'BLK';
+      document.getElementById("basecolor2a").value = 'RED';
+      document.getElementById("shocolor1a").value = 'BLK';
+      document.getElementById("shocolor2a").value = 'RED';
+      document.getElementById("sockcolor1a").value = 'RED';
     }
 
   });

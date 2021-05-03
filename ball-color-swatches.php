@@ -22,6 +22,8 @@ echo "
         echo "<div class='circle' style='{$style}' onClick=\"{$cadena}\"></div>";
       }
     }
+    /*echo "<h1><br>UPLOAD YOUR LOGO:</h1>
+        <input class='genric-btn primary radius' type='file' name='imgInp1' id='imgInp1'  onchange='changeLogo(this);'/><br/>";*/
 echo '</div>';
 
 ?>
