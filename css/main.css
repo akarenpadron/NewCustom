@@ -59,7 +59,7 @@ body {
   position: relative;}
 
 body {
-  background: #eeeeee;
+  background: white; /* this was #eeeeee */
 }
 
 ol, ul {
@@ -2283,7 +2283,7 @@ opacity:1;}
       .feature-area:after {
         display: none; } } */
   .feature-area .single-feature {
-    background: #eeeeee;
+    background: white; /* this was #eeeeee */
     padding: 40px 30px;
     text-align: center;
     /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);  */
@@ -2458,7 +2458,7 @@ opacity:1;}
         display: none; } } */
 
 .single-price {
-  background-color: #eeeeee;
+  background-color: white; /* this was #eeeeee */
   text-align: center;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); }
   @media (max-width: 991px) {

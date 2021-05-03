@@ -27,9 +27,9 @@
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center" style='margin:auto' >
             <div class="ballImageSection" align="center" style="margin:auto; height:450px; width:377px">
               <div id="d1-ball"><img src="assets/Balls/DESIGN2/ball-texture.png"/></div>
-             <!-- <div style="position: relative; left: 0; top: 0;">
-                <img style="height: auto; width: 30%; top: 45px; left: 55%; transform: rotate(35deg) rotateX(50deg)" id="logo-img2"  class='logo-image'/>
-                <img style="height: auto; width: 30%; top: 135px; left: 12%; transform: rotate(-35deg) rotateX(15deg);" id="logo-img1"  class='logo-image'/>
+              <!--<div style="position: relative; left: 0; top: 0;">
+                <img style="height: auto; width: 26%; top: 55px; left: 59%; transform: rotate(35deg) rotateX(50deg)" id="logo-img2"  class='logo-image'/>
+                <img style="height: auto; width: 28%; top: 140px; left: 14%; transform: rotate(-35deg) rotateX(15deg);" id="logo-img1"  class='logo-image'/>
               </div>-->
               <?php
                 $design_number=2;
