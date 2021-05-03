@@ -746,3 +746,32 @@ input[type="submit"]{
     left: 58%;
     z-index: 2;
   }
+  header #logo{
+      background: url(/../img/logo-ss0.png) no-repeat;
+      background-size: 123.2px 75px;
+      width: 123.2px; /* Width of new image */
+      height: 75px; /* Height of new image */
+      border: none;
+      filter: drop-shadow(1px 1px 0px #fff) drop-shadow(2px 2px 0px rgba(0,0,0,0.15));
+    }
+    .header-scrolled #logo{
+      background: url(/../img/banner-logo.png) no-repeat;
+      background-size: 123.2px 75px;
+      width: 123.2px; /* Width of new image */
+      height: 75px; /* Height of new image */
+      border: none;
+      filter: drop-shadow(-1px 0 rgba(00,00,00,.5)) drop-shadow(0 1px rgba(00,00,00,.5)) drop-shadow(1px 0 rgba(00,00,00,.5)) drop-shadow(0 -1px rgba(00,00,00,.5));
+    }
+    .header-scrolled .lnr-menu{
+      filter: drop-shadow(-1px 0 rgba(00,00,00,.5)) drop-shadow(0 1px rgba(00,00,00,.5)) drop-shadow(1px 0 rgba(00,00,00,.5)) drop-shadow(0 -1px rgba(00,00,00,.5));
+    }
+    .header-scrolled #mobile-nav{
+      background-color:var(--gray-color);
+    }
+    #mobile-nav{
+      background-color:var(--gray-color);
+    }
+    .lnr-menu{
+      filter: drop-shadow(1px 1px 0px #fff) drop-shadow(2px 2px 0px rgba(0,0,0,0.15));
+        /*filter: drop-shadow(0 4px 8px rgba(0, 0, 0, .2))  drop-shadow(0 6px 20px rgba(0, 0, 0, .19));*/
+    }
