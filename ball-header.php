@@ -4,9 +4,10 @@ echo "
 	<header id='header'>
 	    <div class='container main-menu'>
 	      <div class='row align-items-center justify-content-between d-flex'>
-	        <div id='logo'>
-	          <a href='index.html'><img  alt='' title='' /></a>
-	        </div>
+	        <a href='index.html'>
+				<div id='logo' style='background-color:transparent;'>
+				</div>
+			</a>
 	        <nav id='nav-menu-container'>
 	          <ul class='nav-menu'>
 	            <li><a id='index-ref' href='index.html'>HOME</a></li>
