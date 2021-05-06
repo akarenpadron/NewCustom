@@ -747,7 +747,7 @@ input[type="submit"]{
     z-index: 2;
   }
   header #logo{
-      background: url(/../img/logo-ss0.png) no-repeat;
+      background: url(../img/logo-ss0.png) no-repeat;
       background-size: 123.2px 75px;
       width: 123.2px; /* Width of new image */
       height: 75px; /* Height of new image */
