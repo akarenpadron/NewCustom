@@ -755,7 +755,7 @@ input[type="submit"]{
       filter: drop-shadow(1px 1px 0px #fff) drop-shadow(2px 2px 0px rgba(0,0,0,0.15));
     }
     .header-scrolled #logo{
-      background: url(/../img/banner-logo.png) no-repeat;
+      background: url(../img/banner-logo.png) no-repeat;
       background-size: 123.2px 75px;
       width: 123.2px; /* Width of new image */
       height: 75px; /* Height of new image */
